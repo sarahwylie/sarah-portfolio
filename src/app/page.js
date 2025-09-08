@@ -14,7 +14,7 @@ export default function Home() {
             Hi! I'm Sarah.
           </h1>
           <h2 className="text-2xl sm:text-3xl font-bold italic">
-            I am a Web Developer, Nature Enthusiast, and Animal Lover.
+            I am a Web Developer, Nature Enthusiast, Animal Lover, and Lifelong Learner.
           </h2>
           <br />
           <div className="flex gap-4 flex-row w-fit sm:w-auto">
@@ -76,13 +76,13 @@ export default function Home() {
           <p className="md:indent-12">
             After I hung up my skates and moved across the country to Austin,
             TX, I knew I wanted to find something that would fulfill my drive to
-            help others. I found a coding bootcamp and fell in love with the
+            help others. I also knew I wanted to pursue my drive for continuous learning, so I found a coding bootcamp and fell in love with the
             process of building things.
           </p>
           <br />
           <p className="md:indent-16">
             I took the plunge and left the financial industry to pursue web
-            development full-time.
+            development full-time, which started my journey with some of the most incredible mentors. My learning journey is still ongoing, and I am astounded by all the incredible (and sometimes unlikely) mentors I encounter along the way.
           </p>
         </div>
         <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">

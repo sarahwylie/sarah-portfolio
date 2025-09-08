@@ -14,7 +14,10 @@ export default function Puppalooza() {
                         <strong>Built with</strong>
                         <p>React, Next.js, Tailwind CSS, TypeScript, GitHub Pages</p>
                     </span>
-                    
+                    <span>
+                        <strong>Type</strong>
+                        <p>Personal</p>
+                    </span>
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                     <div className="leading-6 text-gray-700 dark:text-gray-200 text-center">
@@ -23,11 +26,16 @@ export default function Puppalooza() {
                             alt="Cute puppy pictures"
                             className="rounded-xl mb-10"
                         />
+                    <span>
+                        <strong>The Purpose</strong>
+                    </span>
                     <p className="mb-5">
                         This website did not start with design ideas, color palettes, or wireframes, rather it was an effort to build something quickly to showcase the puppies that had unexpectedly come into our lives.
                     </p>
                     <p className="mb-8">
-                        I had grown tired of trying to remember all the people that wanted pictures of the puppies, and sending new pictures out quickly became exhausting. I built up the frame quickly, added the individual profiles, and realized the site was not only a great means of finding new homes for the puppies, but also a great way to request donations!
+                        I had grown tired of trying to remember all the people that wanted pictures of the puppies, and sending new pictures to each person became exhausting. 
+                        
+                        I built up the frame quickly, added the individual profiles, and realized the site was not only a great means of finding new homes for the puppies, but also a great way to request donations!
                     </p>
                     <span>
                         <Image
