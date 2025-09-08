@@ -11,7 +11,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2">
         <div className="items-center justify-center text-center">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-wide">
-            Hi! I'm Sarah.
+            Hi! I&apos;m Sarah.
           </h1>
           <h2 className="text-2xl sm:text-3xl font-bold italic">
             I am a Web Developer, Nature Enthusiast, Animal Lover, and Lifelong Learner.
@@ -98,7 +98,7 @@ export default function Home() {
           </h2>
           <span>
             I always have several things happening at once, as I tend to thrive in chaos. 
-            Check out the sites, coding puzzles, and volunteer work I've been doing lately.
+            Check out the sites, coding puzzles, and volunteer work I&apos;ve been doing lately.
           </span>
         </div>
         
