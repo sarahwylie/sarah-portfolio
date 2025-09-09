@@ -3,15 +3,17 @@ import CoderGirl from "./codergirl.jpg";
 import Divider from "./divider.jpg";
 import Puppalooza from "./puppalooza.png";
 import Wildflower from "./wildflower.png";
+import Sk8rGirl from "./linkedin.webp"
 import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2">
+    // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col gap-[32px] row-start-2 mb-10">
         <div className="items-center justify-center text-center">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-wide">
-            Hi! I&apos;m Sarah.
+            Hi!  I&apos;m Sarah.
           </h1>
           <h2 className="text-2xl sm:text-3xl font-bold italic">
             I am a Web Developer, Nature Enthusiast, Animal Lover, and Lifelong Learner.
@@ -73,6 +75,24 @@ export default function Home() {
             enough to travel the world playing roller derby.
           </p>
           <br />
+          <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">
+            <Image
+              src={Sk8rGirl}
+              alt="Roller derby skater surrounded by code"
+              className="rounded-md"
+            />
+          </div>
+          <div className="text-sm tracking-tight text-center italic">
+            Image courtesy of{" "}
+            <a
+              href="https://www.jackgraham.net/"
+              title="World's finest UX-er"
+              target="_blank"
+            >
+              Jack Graham
+            </a>
+          </div>
+          <br />
           <p className="md:indent-12">
             After I hung up my skates and moved across the country to Austin,
             TX, I knew I wanted to find something that would fulfill my drive to
@@ -82,9 +102,10 @@ export default function Home() {
           <br />
           <p className="md:indent-16">
             I took the plunge and left the financial industry to pursue web
-            development full-time, which started my journey with some of the most incredible mentors. My learning journey is still ongoing, and I am astounded by all the incredible (and sometimes unlikely) mentors I encounter along the way.
+            development full-time, which started my journey with some of the most incredible mentors. My learning journey is still ongoing, and I am astounded by all the (sometimes unlikely) mentors I encounter along the way.
           </p>
         </div>
+        
         <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">
           <Image
             src={Divider}
@@ -92,14 +113,37 @@ export default function Home() {
             className="rounded-md text-center mb-6"
           />
         </div>
-        <div className="flex flex-wrap items-left justify-items-start text-center sm:text-start">
+
+        <div className="flex flex-col items-left justify-items-start text-center sm:text-start">
           <h2 className="text-3xl sm:text-4xl font-bold italic tracking-wide mb-6">
-            Some of my recent projects
+            My educational journey
           </h2>
           <span>
+            Just having a diploma doesn&apos;t cut it in this industry. I am a lifelong learner, and I am always seeking out new opportunities to grow my skills and knowledge.
+          </span>
+        </div>
+        <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">
+
+
+        </div>
+        
+        <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">
+          <Image
+            src={Divider}
+            alt="Horizontal divider"
+            className="rounded-md text-center mb-6"
+          />
+        </div>
+
+        <div className="flex flex-col items-left justify-items-start text-center sm:text-start mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold italic tracking-wide">
+            Some of my recent projects
+          </h2>
+          <br />
+          <div>
             I always have several things happening at once, as I tend to thrive in chaos. 
             Check out the sites, coding puzzles, and volunteer work I&apos;ve been doing lately.
-          </span>
+          </div>
         </div>
         
         <div className="flex flex-wrap sm:flex-nowrap items-center justify-center">
@@ -157,50 +201,26 @@ export default function Home() {
         </div>
 
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        {/* <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        > 
+      <footer className="row-start-3 flex flex-wrap flex-col items-center justify-center">
+        <div className="flex gap-4 flex-row w-fit sm:w-auto">
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src={Divider}
+            alt="Horizontal divider"
+            className="rounded-md text-center mb-6"
           />
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-        </a> */}
+        </div>
+        <div className="flex flex-col mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold italic tracking-wide">
+            Reach out to me
+          </h2>
+          <span className="m-4">
+            I&apos;d love to hear from you! Whether you have a question about my work, want to collaborate on a project, or just want to say hi, feel free to reach out.
+          </span>
+        </div>
+        <div className="text-sm text-gray-500 dark:text-gray-400 py-2">
+          © {new Date().getFullYear()} Sarah Wylie
+        </div>
+
       </footer>
     </div>
   );

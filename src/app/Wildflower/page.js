@@ -16,6 +16,9 @@ export default function Wildflower() {
                         <strong>Type</strong>
                         <p>Volunteer</p>
                     </span>
+                    <span className="mt-12">
+                        <a href="https://wildflowerchurch.org" target="_blank" rel="noopener noreferrer" aria-label="Open the Wildflower site in a new tab"><strong>Visit the site</strong></a>
+                    </span>
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                     <div className="leading-6 text-gray-700 dark:text-gray-200 text-center">
@@ -47,9 +50,9 @@ export default function Wildflower() {
                         <p></p>
                     </span>
 
-                    <span className="mt-12">
+                    {/* <span className="mt-12">
                         <a href="https://wildflowerchurch.org" target="_blank" rel="noopener noreferrer" aria-label="Open the Wildflower site in a new tab"><strong>Visit the site</strong></a>
-                    </span>
+                    </span> */}
                     </div>
                 </div>
             </div>
