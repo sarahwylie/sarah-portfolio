@@ -1,0 +1,155 @@
+import Image from "next/image";
+import FastTrack from "./FastTrackBadge.png";
+import UT from "./UT.png";
+import DCO from "./DCOCert.JPG";
+import UMN from "./umn.png";
+
+export default function Education() {
+  return (
+    <>
+      <div
+        className="flex flex-col items-left justify-items-start text-center sm:text-start w-fit sm:w-auto italic"
+        id="education"
+      >
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-wide mb-6 dark:text-[#FFD43B]">
+          My educational journey
+        </h2>
+        <span className="m-4">
+          Just having a diploma doesn&apos;t cut it in this industry. I am a
+          lifelong learner, and I am always seeking out new opportunities to
+          grow my skills and knowledge.
+        </span>
+      </div>
+
+      <div className="flex flex-wrap-reverse sm:flex-nowrap items-center justify-center">
+        <div className="mx-3 text-center sm:text-right">
+          <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+            <strong>Bachelor&apos;s Degree</strong>
+          </h3>
+          <span>
+            <p className="my-2 text-base">
+              I grew up learning that a degree opens doors for my future. I was
+              passionate about literature and writing, so I pursued a degree in
+              English with minors in Native American Studies (a byproduct of the
+              English classes I was already required to take, but one that I
+              loved pursuing) and Global Studies. My time at the University of
+              Minnesota taught me to think critically, communicate effectively,
+              and approach problems with creativity and empathy. These skills
+              have been invaluable in my journey as a web developer.
+            </p>
+          </span>
+        </div>
+        <div className="xs:order-1">
+          <Image
+            src={UMN}
+            alt="University of Minnesota Logo"
+            width={800}
+            height={600}
+            className="rounded-xl"
+          />
+        </div>
+      </div>
+      <div className="flex flex-wrap sm:flex-nowrap items-center justify-center">
+        <div>
+          <Image
+            src={UT}
+            alt="University of Texas at Austin Logo"
+            width={800}
+            height={800}
+            className="rounded-xl"
+          />
+        </div>
+        <div className="mx-3 text-center sm:text-left">
+          <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+            <strong>Bootcamp</strong>
+          </h3>
+          <span>
+            <p className="my-2 text-base">
+              I was new to coding, but a fast learner and mature enough to
+              really take this seriously. We breezed through HTML and CSS, then
+              we dove into React and JavaScript. We also touched on backend
+              development with Node.js, Express, and MongoDB. I loved the fast
+              pace and the challenge of learning so much in such a short time.
+              After only six months, I felt cautiously ready to take on the
+              world of web development.
+            </p>
+          </span>
+        </div>
+      </div>
+      <div className="flex flex-wrap-reverse sm:flex-nowrap items-center justify-center">
+        <div className="mx-3 text-center sm:text-right">
+          <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+            <strong>Cook Systems</strong>
+          </h3>
+          <span>
+            <p className="my-2 text-base">
+              Midway through my bootcamp, several accomplished software
+              engineers were also seeking work thanks to a major tech
+              company&apos;s layoffs. I was applying, networking, applying,
+              interviewing, applying... you get the idea. One of the companies
+              to which I applied offered a learning oppotunity in conjunction
+              with helping to find me a job, so I jumped in.
+            </p>
+          </span>
+        </div>
+        <div className="xs:order-1">
+          <a
+            href="https://www.credential.net/embed/bd46cc82-4e3f-409b-a2a3-f29b28415385"
+            target="_blank"
+            aria-label="See the full bootcamp certificate in a new tab"
+          >
+            <Image
+              src={FastTrack}
+              alt="FastTrack Training Program Badge"
+              width={800}
+              height={800}
+              className="rounded-xl"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div className="flex flex-wrap sm:flex-nowrap items-center justify-center">
+        <div>
+          <a
+            href="https://www.credential.net/embed/bd46cc82-4e3f-409b-a2a3-f29b28415385"
+            target="_blank"
+            aria-label="See the full bootcamp certificate in a new tab"
+          >
+            <Image
+              src={DCO}
+              alt="Sarah with Drupal Career Online Certificate"
+              width={600}
+              height={800}
+              className="rounded-xl"
+            />
+          </a>
+        </div>
+        <div className="mx-3 text-center sm:text-left">
+          <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+            <strong>DrupalEasy</strong>
+          </h3>
+          <span>
+            <p className="my-2 text-base">
+              When I was still struggling to find a job after six months of
+              being unemployed, I took a long shot on an internship. The premise
+              was that a company would pay for me to complete a three-month
+              online intensive learning Drupal, then I would intern at that
+              company for three months. I had never even heard of Drupal, but{" "}
+              <a href="https://www.drupaleasy.com/users/ultimike">
+                Mike Anello&apos;s
+              </a>{" "}
+              class (along with the amazing mentorship of{" "}
+              <a href="https://www.drupal.org/u/iajon">Alex Jones</a>) got me up
+              to speed in time to start at{" "}
+              <a href="https://www.palantir.net/">Palantir.net</a>. By the time
+              I was hired at the end of my internship, I was already using my
+              JavaScript skills to help build a breakthrough collaborative
+              editing module.
+            </p>
+          </span>
+        </div>
+      </div>
+    </>
+  );
+}
