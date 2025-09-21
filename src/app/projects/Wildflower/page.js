@@ -1,8 +1,5 @@
 import Image from "next/image";
 import Divider from "../../divider.jpg";
-import overlappingMenu from "./Overlapping_menu_2.png";
-import homepage from "./homepage.png";
-import figma from "./figma.png";
 
 export default function Wildflower() {
     return (
@@ -19,8 +16,10 @@ export default function Wildflower() {
             <div className="grid lg:grid-cols-2 gap-4 mx-3 items-center justify-center text-center">
                 <div>
                     <Image
-                        src={overlappingMenu}
+                        src="https://lh3.googleusercontent.com/pw/AP1GczPvTMGoh2_lJuGmE1mBhuxuvF0-vgJK6yoM_q8GzncxOHSPnOv-7Yw5QOnbdYLT00kdPoUfPB6zUuB492Ksk3nelDf4jLN60PdlAn45pb7l6bik2A=w2400" 
                         alt="Overlapping menu items in non-responsive menu"
+                        width={950}
+                        height={600}
                         className="rounded-xl shadow-lg"
                     />
                     <span className="text-sm tracking-tight text-center italic">
@@ -95,7 +94,7 @@ export default function Wildflower() {
                     <div className="grid grid-col md:grid-cols-2 gap-4 w-full place-items-center content-center">
                         <div>
                             <Image
-                                src={homepage}
+                                src="https://lh3.googleusercontent.com/pw/AP1GczM3Y2WWdwxZRty6NAI6YOKRuFT4ZiaKBKo0yqon8c3iIPLlA-3bf45aIhIDGDQS_t42HlV-4FWGN6KptAAOK8Y5_AKrGyPUv529pAH_oMLiJgMLLg=w2400"
                                 alt="Redesigned Wildflower homepage"
                                 width={375}
                                 height={1000}
@@ -107,7 +106,7 @@ export default function Wildflower() {
                         </div>
                         <div>
                             <Image
-                                src={figma}
+                                src="https://lh3.googleusercontent.com/pw/AP1GczOWfnxGPqdakjq_RTixHvB8aKU5M1JJ-22LOaUW-TBBSrYY1ciML8HLov88M5t49JEo5qYwsI2pxoVlVtE6ljdMSde4Nc3oO3BPAFYGd0LUx-aWjA=w2400"
                                 alt="Figma wireframe"
                                 width={400}
                                 height={650}

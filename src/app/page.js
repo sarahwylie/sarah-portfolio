@@ -1,5 +1,4 @@
 import Image from "next/image";
-import CoderGirl from "./codergirl.jpg";
 import Divider from "./divider.jpg";
 import Header from "./components/header";
 import About from "./components/about";
@@ -24,10 +23,10 @@ export default function Home() {
             <br />
             <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">
               <Image
-                src={CoderGirl}
+                src="https://lh3.googleusercontent.com/pw/AP1GczPaSJpGLRfIGX3QN_DvAP5VQyJxMXcOHCzlyxVq0ZA-Bm4auzk5R7pKRqfAVF9Dh0PLeuJpZuVhQQN1zTtjVX-rEguMjJM3f6uuClcoUZDIWLT3vQ=w2400"
                 alt="Woman emitting code from her hand"
-                width="auto"
-                height="auto"
+                width={2000}
+                height={400}
                 className="rounded-md"
               />
             </div>

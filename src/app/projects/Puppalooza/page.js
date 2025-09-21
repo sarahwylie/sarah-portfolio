@@ -1,8 +1,4 @@
 import Image from "next/image";
-import PuppyPics from "./puppyPics.png";
-import puppa from "./puppa.png";
-import kathleen from "./kathleen.png";
-import play from "./play.png";
 import Divider from "../../divider.jpg";
 
 export default function Puppalooza() {
@@ -19,8 +15,10 @@ export default function Puppalooza() {
             <div className="grid lg:grid-cols-2 gap-4 mx-3 items-center justify-center text-center">
                 <div>
                     <Image
-                        src={PuppyPics}
+                        src="https://lh3.googleusercontent.com/pw/AP1GczNuFh4L2WRBprzDUZLzoIPjAqxdit7352e92p5dYp6Lp8XsanU2Y7MO11LIrbDeRAry9C6-O0Nm2UK2Vwj5YsEPpbU4HyVb6DlMJ8RaFJdl3Xlwyg=w2400"
                         alt="Cute puppy pictures"
+                        width={1450}
+                        height={275}
                         className="rounded-xl shadow-lg"
                     />
                     <span className="text-sm tracking-tight text-center italic">
@@ -48,6 +46,7 @@ export default function Puppalooza() {
                             <li>Tailwind CSS</li> 
                             <li>TypeScript</li> 
                             <li>GitHub Pages</li>
+                            <li>Google Images</li>
                             </ul>
                         </span>
                     </div>
@@ -97,7 +96,7 @@ export default function Puppalooza() {
                     <div className="grid grid-col md:grid-cols-2 gap-4 w-full place-items-center content-center">
                         <div>
                             <Image
-                                src={puppa}
+                                src="https://lh3.googleusercontent.com/pw/AP1GczO7H3QgD6oVnB0sqITbdEBPWIFB4Nadu7OEtrGZR7JChSgwyjDylxE7WNnkIPacwxPAkKw6KyU6iS-mJDLXi4bRSop03cQWjE6iSHq4qs9G4EtyPw=w2400"
                                 alt="Puppalooza homepage"
                                 width={300}
                                 height={850}
@@ -110,7 +109,7 @@ export default function Puppalooza() {
                         <div className="grid grid-col justify-items-center gap-4">
                             <div>
                                 <Image
-                                    src={kathleen}
+                                    src="https://lh3.googleusercontent.com/pw/AP1GczNf-wiE9DDr51mlyejKkpVedTe9cLQpnqPg2RO6dy5fA6i0Z59EFZ346xGWA4d9Kvhv_cFCiro6VFmWol-dFLeDa_1WMEOqNokTwI4mkzynF4ekIA=w2400"
                                     alt="Kathleen's page"
                                     width={200}
                                     height={400}
@@ -122,7 +121,7 @@ export default function Puppalooza() {
                             </div>
                             <div>
                                 <Image
-                                    src={play}
+                                    src="https://lh3.googleusercontent.com/pw/AP1GczNm1trZzClOTzjcvUGl1ZWIOYA2uJb7ogwpyH26BuTk2XD8tjoACuZXYt2Ighyg8q354C3DaIYbI4wDZ1ou-Qgx1_ERXcBn9G34C_gqnXEYxXHARA=w2400"
                                     alt="Playtime Album"
                                     width={175}
                                     height={450}
