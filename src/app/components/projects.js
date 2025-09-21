@@ -13,10 +13,9 @@ export default function Projects() {
         <h2 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
           Some of my recent projects
         </h2>
-        <br />
         <div className="m-4">
           I always have several things happening at once, as I tend to thrive in
-          chaos. Check out the sites, coding puzzles, and volunteer work
+          chaos. Check out the sites, coding puzzles, documentation, and volunteer work
           I&apos;ve been doing lately.
         </div>
       </div>
@@ -41,9 +40,9 @@ export default function Projects() {
               website to showcase the adoptable puppies of course!
             </p>
           </span>
-          <span className="my-2 hover:text-[#C25C7E]">
+          <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
             <strong>
-              <Link href="/Puppalooza">Learn More</Link>
+              <Link href="/projects/Puppalooza">Learn More</Link>
             </strong>
           </span>
         </div>
@@ -64,7 +63,7 @@ export default function Projects() {
           </span>
           <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
             <strong>
-              <Link href="/Wildflower">Learn More</Link>
+              <Link href="/projects/Wildflower">Learn More</Link>
             </strong>
           </span>
         </div>
@@ -73,6 +72,8 @@ export default function Projects() {
           <Image
             src={Wildflower}
             alt="Wildflower website transition"
+            width={800}
+            height={600}
             className="rounded-xl"
           />
         </div>

@@ -22,7 +22,6 @@ const headerLinks = [
 
 export default function Header() {
   return (
-    // <div className="flex flex-wrap w-full justify-between items-center">
       <div className="flex flex-wrap-reverse sm:flex-nowrap items-center w-full justify-center sm:justify-between">
       {/* <div className="fa-layers justify-start pt-5">
           <FontAwesomeIcon
@@ -39,8 +38,8 @@ export default function Header() {
         <Image
           src={SWLogo}
           alt="Sarah Wylie Logo"
-          width={75}
-          height={75}
+                width="auto"
+                height="auto"
           className="rounded-full"
         />
       </div>

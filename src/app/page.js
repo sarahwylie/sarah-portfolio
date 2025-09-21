@@ -5,7 +5,7 @@ import Header from "./components/header";
 import About from "./components/about";
 import Education from "./components/education";
 import Footer from "./components/footer";
-import Projects from "./components/projects/page";
+import Projects from "./components/projects";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <div>
         <main className="flex flex-col gap-[32px] row-start-2 mb-10">
           <div className="items-center justify-center text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold tracking-wide mb-10">
+            <h1 className="text-4xl sm:text-5xl font-bold tracking-wide mb-10 dark:text-[#FFD43B]">
               Hi! I&apos;m Sarah.
             </h1>
             <h2 className="text-2xl sm:text-3xl font-bold italic">
@@ -26,6 +26,8 @@ export default function Home() {
               <Image
                 src={CoderGirl}
                 alt="Woman emitting code from her hand"
+                width="auto"
+                height="auto"
                 className="rounded-md"
               />
             </div>
@@ -92,7 +94,7 @@ export default function Home() {
             />
           </div>
           {/* CONTACT  */}
-          <div className="flex flex-col mb-6 w-fit sm:w-auto italic" id="contact">
+          <div className="flex flex-col mb-6 text-center sm:text-start w-fit sm:w-auto italic" id="contact">
             <h2 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
               Reach out to me
             </h2>

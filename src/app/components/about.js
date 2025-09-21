@@ -4,10 +4,10 @@ import Sk8rGirl from "./linkedin.webp";
 export default function About() {
   return (
     <div
-      className="text-base sm:text-lg justify-items-start text-start"
+      className="text-base justify-items-start text-start"
       id="about"
     >
-        <h2 className="text-3xl sm:text-4xl font-bold italic tracking-wide mb-6 dark:text-[#FFD43B]">
+        <h2 className="text-3xl sm:text-4xl font-bold italic tracking-wide dark:text-[#FFD43B]">
             A bit about me
         </h2>
 

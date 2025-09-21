@@ -11,7 +11,7 @@ export default function Education() {
         className="flex flex-col items-left justify-items-start text-center sm:text-start w-fit sm:w-auto italic"
         id="education"
       >
-        <h2 className="text-3xl sm:text-4xl font-bold tracking-wide mb-6 dark:text-[#FFD43B]">
+        <h2 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
           My educational journey
         </h2>
         <span className="m-4">
@@ -22,7 +22,7 @@ export default function Education() {
       </div>
 
       <div className="flex flex-wrap-reverse sm:flex-nowrap items-center justify-center">
-        <div className="mx-3 text-center sm:text-right">
+        <div className="mx-2 text-center sm:text-right">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
             <strong>Bachelor&apos;s Degree</strong>
           </h3>
