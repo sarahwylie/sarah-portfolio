@@ -65,12 +65,12 @@ export default function ProjectLayout({ children }) {
 
                 <div className="flex flex-col mb-6 text-center sm:text-start w-fit sm:w-auto italic" id="contact">
                     <h2 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
-                        Let's work together!
+                        Let&apos;s work together!
                     </h2>
                     <span className="m-4">
                         Need a developer? Have a question? Want a new friend?
                         <p className="mt-4 ml-8">
-                            Let's connect!
+                            Let&apos;s connect!
                         </p>
                     </span>
                 </div>

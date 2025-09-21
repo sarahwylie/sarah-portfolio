@@ -76,7 +76,7 @@ export default function Puppalooza() {
                     <p className="m-4 text-base">
                         I needed to build this site quickly, and I wouldn&apos;t need to scale up or store anything on the backend, so React felt like the logical choice. I already had experience with React, Tailwind made styling faster, and I was able to initiate the codebase, gather all the data, and publish within a couple days.
                         <br/>
-                        After I got the basic information posted, I needed to come up with a photo storage solution. With a massive focus on displaying photos for so many puppies (plus adding videos), this site wouldn't be able to host all that data on GitHub. After searching for a Content Delivery Network where I could store, host, deliver, and optimize the images, I ended up lowering my expectations considerably. CDNs can be pricey, and ultimately I needed a cheap option with minimal fuss. I decided on Google for its unbeatable price tag (free).
+                        After I got the basic information posted, I needed to come up with a photo storage solution. With a massive focus on displaying photos for so many puppies (plus adding videos), this site wouldn&apos;t be able to host all that data on GitHub. After searching for a Content Delivery Network where I could store, host, deliver, and optimize the images, I ended up lowering my expectations considerably. CDNs can be pricey, and ultimately I needed a cheap option with minimal fuss. I decided on Google for its unbeatable price tag (free).
                     </p>
                 </div>
 
