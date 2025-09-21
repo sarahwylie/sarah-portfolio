@@ -41,7 +41,7 @@ export default function ProjectLayout({ children }) {
                                 {headerLinks.map((link) => (
                                     <li
                                         key={link.section}
-                                        className="p-2 md:p-4 sm:inline hover:rounded-full hover:bg-[#545454] hover:text-[#F7F7F7] hover:dark:text-[#545454] hover:dark:bg-[#24e4e3] pt-5"
+                                        className="p-2 md:p-4 sm:inline hover:rounded-full hover:bg-[#545454] hover:text-[#F7F7F7] hover:dark:text-[#545454] hover:dark:bg-[#24e4e3] pt-2 md:pt-6"
                                     >
                                         <a href={link.href} className="sm:text-3xl text-2xl font-bold tracking-widest sm:tracking-normal">
                                         {link.section}

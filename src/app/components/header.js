@@ -34,7 +34,7 @@ export default function Header() {
             className="dark:text-[#FFD43B] text-6xl"
           />
         </div> */}
-      <div className="hidden md:flex justify-start">
+      <div className="hidden md:flex justify-start items-center">
         <Image
           src={SWLogo}
           alt="Sarah Wylie Logo"
@@ -43,13 +43,13 @@ export default function Header() {
           className="rounded-full"
         />
       </div>
-      <div className="flex justify-center md:justify-end dark:text-[#24e4e3] w-full md:w-auto">
+      <div className="flex justify-center items-center md:justify-end dark:text-[#24e4e3] w-full md:w-auto">
         <nav>
           <ul className="text-center list-none flex-col sm:flex-row">
             {headerLinks.map((link) => (
               <li
                 key={link.section}
-                className="p-2 md:p-4 sm:inline hover:rounded-full hover:bg-[#545454] hover:text-[#F7F7F7] hover:dark:text-[#545454] hover:dark:bg-[#24e4e3] pt-5"
+                className="p-2 md:p-4 sm:inline hover:rounded-full hover:bg-[#545454] hover:text-[#F7F7F7] hover:dark:text-[#545454] hover:dark:bg-[#24e4e3] pt-2 md:pt-6"
               >
                 <a href={link.href} className="sm:text-3xl text-2xl font-bold tracking-widest sm:tracking-normal">
                   {link.section}

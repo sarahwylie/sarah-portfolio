@@ -136,13 +136,16 @@ export default function Education() {
               was that a company would pay for me to complete a three-month
               online intensive learning Drupal, then I would intern at that
               company for three months. I had never even heard of Drupal, but{" "}
-              <a href="https://www.drupaleasy.com/users/ultimike">
+              <a href="https://www.drupaleasy.com/users/ultimike" target="_blank"
+              aria-label="Open Mike Anello's website">
                 Mike Anello&apos;s
               </a>{" "}
               class (along with the amazing mentorship of{" "}
-              <a href="https://www.drupal.org/u/iajon">Alex Jones</a>) got me up
+              <a href="https://www.drupal.org/u/iajon" target="_blank"
+            aria-label="See Alex Jones's Drupal profile">Alex Jones</a>) got me up
               to speed in time to start at{" "}
-              <a href="https://www.palantir.net/">Palantir.net</a>. By the time
+              <a href="https://www.palantir.net/" target="_blank"
+            aria-label="Visit the Palantir.net company website">Palantir.net</a>. By the time
               I was hired at the end of my internship, I was already using my
               JavaScript skills to help build a breakthrough collaborative
               editing module.
