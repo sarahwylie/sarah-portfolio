@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Puppalooza from "../components/puppalooza.png";
-import Wildflower from "../components/wildflower.png";
 
 export default function ProjectPage() {
   return (
@@ -23,7 +21,7 @@ export default function ProjectPage() {
       <div className="flex flex-wrap sm:flex-nowrap items-center justify-center">
         <div>
           <Image
-            src={Puppalooza}
+            src="https://lh3.googleusercontent.com/pw/AP1GczPo4NFLe9SeaFSGkh34yTj--c14pHVvWmiTMcppthKRtJUYUgUzX4Pcjh6mU2zU7CRXC8pwIvU2EAGg3JXuGdWeyL_VF3OW0NdTJq50DQSi_HDNVw=w2400"
             alt="Puppalooza Screenshot"
             width={600}
             height={400}
@@ -70,7 +68,7 @@ export default function ProjectPage() {
 
         <div className="xs:order-1">
           <Image
-            src={Wildflower}
+            src="https://lh3.googleusercontent.com/pw/AP1GczMUEVv-iLkkbPpvfv69vctkVZX1f9cMaZmLzaipG5_i4WkBHKyw35pTDuIXlodq_NXv1Np7SfvjhvxABXU9mBtnLXEEvb_ZdiW7l1jWgLqKIUs7tg=w2400"
             alt="Wildflower website transition"
             width={800}
             height={600}
