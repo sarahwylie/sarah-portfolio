@@ -1,8 +1,4 @@
 import Image from "next/image";
-import FastTrack from "./FastTrackBadge.png";
-import UT from "./UT.png";
-import DCO from "./DCOCert.JPG";
-import UMN from "./umn.png";
 
 export default function Education() {
   return (
@@ -41,7 +37,7 @@ export default function Education() {
         </div>
         <div className="xs:order-1">
           <Image
-            src={UMN}
+            src="https://lh3.googleusercontent.com/pw/AP1GczO9qSbMFibY-tu-ZrXwyfswiZHChTuyP9ZUFbH6A4f6DDsQDiXgMTUbT-b6KnQPmR9-fRkLRGGwMkDxI8Y9W19GpBHu50_ubVGsadj4nqOobZ4RwQ=w2400"
             alt="University of Minnesota Logo"
             width={800}
             height={600}
@@ -52,7 +48,7 @@ export default function Education() {
       <div className="flex flex-wrap sm:flex-nowrap items-center justify-center">
         <div>
           <Image
-            src={UT}
+            src="https://lh3.googleusercontent.com/pw/AP1GczOSdEZU-OQUlT4jgY2wfLfFW6uPm989Pqk68BwiJyNwEdkWEPtndcIXNrnt71l_dAkBdJs7-C2vhZThQz60FRGsUmmC0F85xSfIWV8zATwiNrbv4g=s225-p-k"
             alt="University of Texas at Austin Logo"
             width={800}
             height={800}
@@ -99,7 +95,7 @@ export default function Education() {
             aria-label="See the full bootcamp certificate in a new tab"
           >
             <Image
-              src={FastTrack}
+              src="https://lh3.googleusercontent.com/pw/AP1GczMUsio1OgSlnMwhroEu8UxHY2lB5xSi0CuKBWb5XsikdgtiXsqyILyKcvzeM-fEAt1WtX9PiSQ5_3ODaCZuz7wzcLxpceLHDfcXLbkEyfQB_F3Ydw=w2400"
               alt="FastTrack Training Program Badge"
               width={800}
               height={800}
@@ -117,7 +113,7 @@ export default function Education() {
             aria-label="See the full bootcamp certificate in a new tab"
           >
             <Image
-              src={DCO}
+              src="https://lh3.googleusercontent.com/pw/AP1GczPkPktMLe8luyLR-gmvf4GuGCkMUD0nOjoOXOCVpDiQ8V8MStePkqac4r38TNxUJF2RxqAAdgIvloxZKMdxPDaGaBBhqYHDi9gYJsAx-I5Y9PoZvg=w2400"
               alt="Sarah with Drupal Career Online Certificate"
               width={600}
               height={800}
