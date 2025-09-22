@@ -78,7 +78,7 @@ export default function Wildflower() {
                                 <strong>Web Stack and Explanation</strong>
                             </h3>
                             <p className="m-4 text-base">
-                                The Wildflower site was already built in WordPress, so I inherited it from a series of people (some developers and some not) who had piecemealed new sections into the existing framework. I noticed immediately that the site was not responsive, not WCAG-compliant, and its SEO score was low, mostly due to excessive load times. I cleared out any unnecessary plugins, added in an SEO tool, overhauled the menu, and utilized cache clearing. I dug into the codebase and started updating color contrast values in locations that don't allow for a direct change. This is still a work in progress, but baby steps to success.
+                                The Wildflower site was already built in WordPress, so I inherited it from a series of people (some developers and some not) who had piecemealed new sections into the existing framework. I noticed immediately that the site was not responsive, not WCAG-compliant, and its SEO score was low, mostly due to excessive load times. I cleared out any unnecessary plugins, added in an SEO tool, overhauled the menu, and utilized cache clearing. I dug into the codebase and started updating color contrast values in locations that don&apos;t allow for a direct change. This is still a work in progress, but baby steps to success.
                             </p>
                         </span>
 
