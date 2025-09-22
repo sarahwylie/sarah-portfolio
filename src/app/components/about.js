@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Sk8rGirl from "./linkedin.webp";
 
 export default function About() {
   return (
@@ -32,8 +31,10 @@ export default function About() {
       <div className="items-center justify-center">
         <div className="flex gap-4 flex-row w-fit sm:w-auto">
           <Image
-            src={Sk8rGirl}
+            src="https://lh3.googleusercontent.com/pw/AP1GczN3uek2CzxKMmzXeSzMerC15i6xGEwAcrc-soCxFC4t5GsWw3HrzGJXBInkUVqwBhxXwzndcMWNlt1tqIIQmdoajHNkho7NKdCj969f-SfEwUtV2A=w2400"
             alt="Roller derby skater surrounded by code"
+            width={3250}
+            height={800}
             className="rounded-md"
           />
         </div>
