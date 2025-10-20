@@ -23,7 +23,7 @@ export default function ProjectPage() {
           </h3>
           <span>
             <p className="my-2">
-              While working on a group project, I offered to lead usage of a third-party API and integration with the client's Drupal site. By the time I wrapped, I had written a custom Drupal module with a full page of JavaScript to manipulate the DOM.
+              While working on a group project, I offered to lead usage of a third-party API and integration with the client&apos;s Drupal site. By the time I wrapped, I had written a custom Drupal module with a full page of JavaScript to manipulate the DOM.
             </p>
           </span>
           <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">

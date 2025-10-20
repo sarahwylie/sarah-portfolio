@@ -12,7 +12,7 @@ export default function Tooltip() {
         <span className="m-4 italic">
           While customizing a page for a client, I realized that the U.S. Web
           Design System (USWDS) Tooltip component we were using did not allow
-          developers to dynamically update text. Since the client's theme
+          developers to dynamically update text. Since the client&apos;s theme
           library relied heavily on USWDS components, I had the choice to either
           create a custom tooltip component (which was unrealistic given the
           timeline) or dig into the open-source code to change the static
@@ -114,7 +114,7 @@ export default function Tooltip() {
                 <strong>Project Purpose</strong>
               </h3>
               <p className="m-4 text-base">
-                This was a feature for a new section of a client's website. My
+                This was a feature for a new section of a client&apos;s website. My
                 focus was building out the functionality for a list of
                 resources, including toggle buttons that would update state, a
                 loading indicator timed to appear before page load and vanish
@@ -141,13 +141,13 @@ export default function Tooltip() {
               </h3>
               <p className="m-4 text-base">
                 This custom module held thousands of lines of code and required
-                several refactors. I didn't complete this feat alone, but while
+                several refactors. I didn&apos;t complete this feat alone, but while
                 working closely with the senior developer and the UX designer,
                 we realized quickly that our time until launch was running thin
                 and the functionality was not yet logical. The three of us held
                 an emergency planning meeting to determine how to wrap up this
                 portion of the site, and the takeaway was that we would have to
-                overhaul and restrategize major sections if we couldn't make the
+                overhaul and restrategize major sections if we couldn&apos;t make the
                 tooltip dynamic. I offered to explore the USWDS source code, and
                 the team placed a lot of trust in me to deliver the solution
                 rapidly. Luckily, I found the relevant code almost immediately,
