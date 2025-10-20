@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Divider from "./divider.jpg";
 import Header from "./components/header";
 import About from "./components/about";
@@ -82,6 +83,16 @@ export default function Home() {
           </div>
 
           <Projects />
+      <div
+        className="flex flex-col justify-center text-center w-fit sm:w-auto italic"
+        id="projects"
+      >
+        <Link href="/projects">
+        <h3 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
+          See more projects here
+        </h3>
+        </Link>
+      </div>
 
         </main>
         <footer className="row-start-3 flex flex-wrap flex-col items-center justify-center">

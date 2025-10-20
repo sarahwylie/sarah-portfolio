@@ -6,11 +6,11 @@ import Footer from "../components/footer";
 
 const headerLinks = [
     {
-        href: "/sarah-portfolio",
+        href: "/",
         section: "Home",
     },
     {
-        href: "/sarah-portfolio/projects",
+        href: "/projects",
         section: "Projects",
     },
     {

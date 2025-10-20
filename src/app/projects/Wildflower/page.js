@@ -69,7 +69,7 @@ export default function Wildflower() {
                                 <strong>Project Purpose</strong>
                             </h3>
                             <p className="m-4 text-base">
-                                As mentioned above, this site fulfilled my drive to learn while simultaneously allowing me to fulfill a volunteer requirement. The beauty of this site is that I had full control with bits of help as I got up to speed. I started with simple updates each week, then commited to overhauling some of the more major responsivity and accessibility faults on the homepage. 
+                                As mentioned above, this site fulfilled my drive to learn while simultaneously allowing me to fulfill a volunteer requirement. The beauty of this site is that I had full control with bits of help as I got up to speed. I started with simple updates each week, then commited to overhauling some of the more major responsivity and accessibility faults on the homepage. This is an ongoing project, but I am proud of the progress I have made so far. Baby steps to success!
                             </p>
                         </span>
 
@@ -78,7 +78,7 @@ export default function Wildflower() {
                                 <strong>Web Stack and Explanation</strong>
                             </h3>
                             <p className="m-4 text-base">
-                                The Wildflower site was already built in WordPress, so I inherited it from a series of people (some developers and some not) who had piecemealed new sections into the existing framework. I noticed immediately that the site was not responsive, not WCAG-compliant, and its SEO score was low, mostly due to excessive load times. I cleared out any unnecessary plugins, added in an SEO tool, overhauled the menu, and utilized cache clearing. I dug into the codebase and started updating color contrast values in locations that don&apos;t allow for a direct change. This is still a work in progress, but baby steps to success.
+                                The Wildflower site was already built in WordPress, so I inherited it from a series of people (some developers and some not) who had piecemealed new sections into the existing framework. I noticed immediately that the site was not responsive, not WCAG-compliant, and its SEO score was low, mostly due to excessive load times. I cleared out any unnecessary plugins, added in an SEO tool, overhauled the menu, and utilized cache clearing. I dug into the codebase and started updating color contrast values in locations that don&apos;t allow for a direct change. I am continuing to work on this in my spare time, so it will continue to evolve (as we should all strive to do).
                             </p>
                         </span>
 
@@ -87,7 +87,7 @@ export default function Wildflower() {
                                 <strong>Struggles and Reflections</strong>
                             </h3>
                             <p className="m-4 text-base">
-                                I am not a designer. Clearing my brain enough to place all the elements in the correct places in a wireframe was challenging, but figuring out color schemes was even harder. My Figma board was messy and cluttered, but once I had each of the existing elements cut out and moved to the board, the layout of the new homepage became a little easier. I hit some roadblocks working with the existing theme, but learned to work with it as often as possible (using the theme to override CSS), or work around it when necessary (adding a plugin to make the menu responsive).
+                                I have no design training, so knowing how to arrange all the elements in a cohesive and understandable order was challenging, but figuring out color schemes was even harder. My Figma board started out messy, but once I copied each of the existing elements onto the board, the layout of the new homepage became a little easier. I hit some roadblocks working with the existing theme, but learned to work with it as often as possible (using the theme to override CSS), or work around it when necessary (adding a plugin to make the menu responsive).
                             </p>
                         </span>
                     </div>

@@ -1,46 +1,34 @@
 import Image from "next/image";
 import Link from "next/link";
+import Projects from "../components/projects";
 
 export default function ProjectPage() {
   return (
     <>
-      <div
-        className="flex flex-col items-left justify-items-start text-center sm:text-start w-fit sm:w-auto italic"
-        id="projects"
-      >
-        <h2 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
-          Some of my recent projects
-        </h2>
-        <div className="m-4">
-          I always have several things happening at once, as I tend to thrive in
-          chaos. Check out the sites, coding puzzles, documentation, and volunteer work
-          I&apos;ve been doing lately.
-        </div>
-      </div>
+      <Projects />
 
       <div className="flex flex-wrap sm:flex-nowrap items-center justify-center">
         <div>
           <Image
-            src="https://lh3.googleusercontent.com/pw/AP1GczPo4NFLe9SeaFSGkh34yTj--c14pHVvWmiTMcppthKRtJUYUgUzX4Pcjh6mU2zU7CRXC8pwIvU2EAGg3JXuGdWeyL_VF3OW0NdTJq50DQSi_HDNVw=w2400"
-            alt="Puppalooza Screenshot"
-            width={600}
+            src="https://lh3.googleusercontent.com/pw/AP1GczPzZYUHE9Ox8JeO8X_en16D3SGPrrRZw48BkUTVaNjmbIn8nyyR6U_BHyQiL7n2XJLv6Y8RY6HZPx3TkRmfoXJghTN42r7mG116Z4tvkZ6PhH3UPj4-80S02UQNuAz3-kSogULT3U8NAvcbkHwbFeY=w843-h255-s-no-gm?authuser=0"
+            alt="Finished styling of the events with client identifiers blacked out"
+            width={800}
             height={400}
             className="rounded-xl"
           />
         </div>
         <div className="mx-3 text-center sm:text-left">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
-            <strong>Puppalooza</strong>
+            <strong>Event Styling</strong>
           </h3>
           <span>
             <p className="my-2">
-              What to do when your foster pup turns out to be pregnant? Make a
-              website to showcase the adoptable puppies of course!
+              While working on a group project, I offered to lead usage of a third-party API and integration with the client's Drupal site. By the time I wrapped, I had written a custom Drupal module with a full page of JavaScript to manipulate the DOM.
             </p>
           </span>
           <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
             <strong>
-              <Link href="/projects/Puppalooza">Learn More</Link>
+              <Link href="/projects/EventStyling">Learn More</Link>
             </strong>
           </span>
         </div>
@@ -49,31 +37,54 @@ export default function ProjectPage() {
       <div className="flex flex-wrap-reverse sm:flex-nowrap items-center justify-center">
         <div className="mx-3 text-center sm:text-right">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
-            <strong>Wildflower</strong>
+            <strong>USWDS Dynamic Tooltip</strong>
           </h3>
           <span>
             <p className="my-2">
-              I picked up WordPress while doing volunteer web maintenance work.
-              It was a natural evolution from my Drupal experience, and after
-              quickly learning the basics I committed to doing an accessibility
-              and design overhaul of the landing page.
+              When I had to write a patch to override the default behavior of a U.S. Web Design System (USWDS) component for a client, I took it a step further and used my own time to contribute the code back to the open-source community.
             </p>
           </span>
           <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
             <strong>
-              <Link href="/projects/Wildflower">Learn More</Link>
+              <Link href="/projects/Tooltip">Learn More</Link>
             </strong>
           </span>
         </div>
-
         <div className="xs:order-1">
           <Image
-            src="https://lh3.googleusercontent.com/pw/AP1GczMUEVv-iLkkbPpvfv69vctkVZX1f9cMaZmLzaipG5_i4WkBHKyw35pTDuIXlodq_NXv1Np7SfvjhvxABXU9mBtnLXEEvb_ZdiW7l1jWgLqKIUs7tg=w2400"
-            alt="Wildflower website transition"
-            width={800}
-            height={600}
+            src="https://lh3.googleusercontent.com/pw/AP1GczMYqj7HnwzLyA1TT27uuIqsJixHcNORa67VPujvPYs3EX-mdPaqiCUDgenj6qATso3jyvpR2wYtS2oH30atMwDURQuO3m845oAv574xlsxboodbHxNNumN_bRSwOPrC3JM_TjL6bvEE5iDkWSG3cRs=w1489-h423-s-no-gm?authuser=0"
+            alt="Tooltip code snippet"
+            width={1500}
+            height={400}
             className="rounded-xl"
           />
+        </div>
+      </div>
+
+      <div className="flex flex-wrap sm:flex-nowrap items-center justify-center">
+        <div>
+          <Image
+            src="https://lh3.googleusercontent.com/pw/AP1GczOFj4B07PZdOdrVd_01iESQye7BEcV0rsMgZS1PbiURjfXOIqKL1kTVyjo1y1aDwGKxbLIDXxS26m2bo7b2_IlzjlSzdInQK1ltfMu2mi7JeyDgWA=w2400"
+            alt="Table comparing SASS features with CSS alternatives"
+            width={1000}
+            height={800}
+            className="rounded-xl"
+          />
+        </div>
+        <div className="mx-3 text-center sm:text-left">
+          <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+            <strong>CSS v SASS</strong>
+          </h3>
+          <span>
+            <p className="my-2">
+              I was tasked with determining whether an entire theme could be overhauled and changed from SASS-based to fully Vanilla CSS. The twist was whether it could be done with only a few weeks of solid work until it would be presented to the world.
+            </p>
+          </span>
+          <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
+            <strong>
+              <Link href="/projects/CSSvSASS">Learn More</Link>
+            </strong>
+          </span>
         </div>
       </div>
     </>
