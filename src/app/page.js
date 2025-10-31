@@ -9,40 +9,38 @@ import Projects from "./components/projects";
 
 export default function Home() {
   return (
-    <div className="grid items-center justify-items-center p-8 pb-10 gap-16 font-[family-name:var(--font-geist-sans)] w-full">
+    <div className="grid items-center justify-items-center p-8 pb-10 gap-12 font-[family-name:var(--font-noto-sans)] w-full">
       <Header />
       <div>
         <main className="flex flex-col gap-[32px] row-start-2 mb-10">
           <div className="items-center justify-center text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold tracking-wide mb-10 dark:text-[#FFD43B]">
-              Hi! I&apos;m Sarah.
-            </h1>
-            <h2 className="text-2xl sm:text-3xl font-bold italic">
-              I am a Web Developer, Nature Enthusiast, Animal Lover, and
-              Lifelong Learner.
-            </h2>
-            <br />
-            <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">
+            <div className="flex flex-row items-center justify-center -mx-10 -px-10">
               <Image
                 src="https://lh3.googleusercontent.com/pw/AP1GczPaSJpGLRfIGX3QN_DvAP5VQyJxMXcOHCzlyxVq0ZA-Bm4auzk5R7pKRqfAVF9Dh0PLeuJpZuVhQQN1zTtjVX-rEguMjJM3f6uuClcoUZDIWLT3vQ=w2400"
                 alt="Woman emitting code from her hand"
-                width={2000}
+                width={3000}
                 height={400}
-                className="rounded-md"
+                className="rounded-md shadow-lg"
               />
             </div>
-            <div className="text-sm tracking-tight text-center italic">
-              Image courtesy of{" "}
+            <div className="text-xs sm:text-sm tracking-tight text-center italic mb-10">
               <a
                 href="https://www.jackgraham.net/"
                 title="World's finest UX-er"
                 target="_blank"
               >
-                Jack Graham
+                Image courtesy of Jack Graham - click to see more of his work
               </a>
             </div>
             <br />
-            <div className="whitespace-pre-line text-lg/8 sm:text-xl/9 text-center font-bold">
+            <h1 className="text-4xl sm:text-5xl font-semibold tracking-wide mb-10 dark:text-[#FFD43B]">
+              Hi! I&apos;m Sarah.
+            </h1>
+            {/* <h2 className="text-2xl sm:text-3xl font-semibold italic">
+              I am a Web Developer, Nature Enthusiast, Animal Lover, and
+              Lifelong Learner.
+            </h2> */}
+            <div className="whitespace-pre-line text-lg/8 sm:text-xl/9 text-center font-medium">
               <p>
                 I am a passionate web developer with a love for creating
                 beautiful, functional, and accessible web applications.
@@ -52,67 +50,53 @@ export default function Home() {
                 on the world.
               </p>
               <br />
-              <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">
-                <Image
-                  src={Divider}
-                  alt="Horizontal divider"
-                  className="rounded-md text-center"
-                />
+              <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+                <hr className="my-12 h-1 opacity-100 w-2/3" />
               </div>
             </div>
           </div>
 
           <About />
 
-          <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">
-            <Image
-              src={Divider}
-              alt="Horizontal divider"
-              className="rounded-md text-center mb-6"
-            />
+          <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+            <hr className="my-12 h-1 opacity-100 w-2/3" />
           </div>
 
           <Education />
 
-          <div className="flex w-fit sm:w-auto items-center justify-center">
-            <Image
-              src={Divider}
-              alt="Horizontal divider"
-              className="rounded-md text-center mb-6"
-            />
+          <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+            <hr className="my-12 h-1 opacity-100 w-2/3" />
           </div>
 
           <Projects />
-      <div
-        className="flex flex-col justify-center text-center w-fit sm:w-auto italic"
-        id="projects"
-      >
-        <Link href="/projects">
-        <h3 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
-          See more projects here
-        </h3>
-        </Link>
-      </div>
-
+          <div
+            className="flex flex-col justify-center text-center w-fit sm:w-auto italic"
+            id="projects"
+          >
+            <Link href="/projects">
+              <h3 className="text-3xl sm:text-4xl font-semibold tracking-wide dark:text-[#FFD43B]">
+                See more projects here
+              </h3>
+            </Link>
+          </div>
+          <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+            <hr className="my-12 h-1 opacity-100 w-2/3" />
+          </div>
         </main>
         <footer className="row-start-3 flex flex-wrap flex-col items-center justify-center">
-          <div className="flex gap-4 flex-row w-fit sm:w-auto">
-            <Image
-              src={Divider}
-              alt="Horizontal divider"
-              className="rounded-md text-center mb-6"
-            />
-          </div>
           {/* CONTACT  */}
-          <div className="flex flex-col mb-6 text-center sm:text-start w-fit sm:w-auto italic" id="contact">
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
+          <div
+            className="flex flex-col mb-6 text-center sm:text-start w-fit sm:w-auto italic"
+            id="contact"
+          >
+            <h2 className="text-3xl sm:text-4xl font-semibold tracking-wide dark:text-[#FFD43B]">
               Reach out to me
             </h2>
-            <span className="m-4">
-              I&apos;d love to hear from you! Whether you have a question about
-              my work, want to collaborate on a project, or just want to say hi,
-              feel free to reach out.
-            </span>
+            <p className="mx-4">I&apos;d love to hear from you!</p>
+            <p className="mx-5">Whether you have a question about my work,
+            want to collaborate on a project,</p>
+            <p className="mx-6">or just want to say hi, 
+            feel free to reach out.</p>
           </div>
           <Footer />
         </footer>

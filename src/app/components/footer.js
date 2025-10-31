@@ -40,7 +40,7 @@ export default function Footer() {
           />
         </Link>
       </div>
-      <div className="text-sm text-gray-500 dark:text-gray-400 py-2">
+      <div className="text-sm text-gray-800 dark:text-gray-100 py-2">
         © {new Date().getFullYear()} Sarah Wylie
       </div>
     </div>

@@ -2,29 +2,42 @@
 
 :root {
   --background: #F7F7F7;
-  --foreground: #545454;
+  --foreground: #36364A;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-noto-sans);
+  /* --font-mono: var(--font-geist-mono); */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #545454;
+    --background: #36364A;
     --foreground: #F7F7F7;
   }
 }
 
-a:hover {
+a {
   font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
+
+hr {
+  color: #FF862E;
+  border-color: #FF862E;
+  border-radius: 20px;
+  border-top-style: var(--tw-border-style);
+  border-top-width: 3px;
+  background-color: #FF862E;
 }

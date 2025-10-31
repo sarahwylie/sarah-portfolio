@@ -4,21 +4,23 @@ export default function Education() {
   return (
     <>
       <div
-        className="flex flex-col items-left justify-items-start text-center sm:text-start w-fit sm:w-auto italic"
+        className="flex flex-col items-left justify-items-start text-start w-fit sm:w-auto italic"
         id="education"
       >
-        <h2 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
+        <h2 className="text-3xl sm:text-4xl font-semibold tracking-wide dark:text-[#FFD43B]">
           My educational journey
         </h2>
-        <span className="m-4">
-          Just having a diploma doesn&apos;t cut it in this industry. I am a
-          lifelong learner, and I am always seeking out new opportunities to
+      <p className="mx-4">
+          Just having a diploma doesn&apos;t cut it in this industry. 
+        </p>
+        <p className="mx-4">
+          I am a lifelong learner, and I am always seeking out new opportunities to
           grow my skills and knowledge.
-        </span>
+        </p>
       </div>
 
-      <div className="flex flex-wrap-reverse sm:flex-nowrap items-center justify-center">
-        <div className="mx-2 text-center sm:text-right">
+      <div className="flex flex-wrap-reverse sm:flex-nowrap w-full justify-center sm:justify-around items-center">
+        <div className="mx-2 max-w-lg">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
             <strong>Bachelor&apos;s Degree</strong>
           </h3>
@@ -35,27 +37,28 @@ export default function Education() {
             </p>
           </span>
         </div>
-        <div className="xs:order-1">
+        <div>
           <Image
             src="https://lh3.googleusercontent.com/pw/AP1GczO9qSbMFibY-tu-ZrXwyfswiZHChTuyP9ZUFbH6A4f6DDsQDiXgMTUbT-b6KnQPmR9-fRkLRGGwMkDxI8Y9W19GpBHu50_ubVGsadj4nqOobZ4RwQ=w2400"
             alt="University of Minnesota Logo"
             width={800}
             height={600}
-            className="rounded-xl"
+            className="rounded-xl shadow-lg max-w-3xs"
           />
         </div>
       </div>
-      <div className="flex flex-wrap sm:flex-nowrap items-center justify-center">
+
+      <div className="flex flex-wrap sm:flex-nowrap w-full justify-center sm:justify-around items-center">
         <div>
           <Image
             src="https://lh3.googleusercontent.com/pw/AP1GczOSdEZU-OQUlT4jgY2wfLfFW6uPm989Pqk68BwiJyNwEdkWEPtndcIXNrnt71l_dAkBdJs7-C2vhZThQz60FRGsUmmC0F85xSfIWV8zATwiNrbv4g=s225-p-k"
             alt="University of Texas at Austin Logo"
             width={800}
             height={800}
-            className="rounded-xl"
+            className="rounded-xl shadow-lg max-w-3xs"
           />
         </div>
-        <div className="mx-3 text-center sm:text-left">
+        <div className="mx-3 max-w-lg">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
             <strong>Bootcamp</strong>
           </h3>
@@ -72,8 +75,8 @@ export default function Education() {
           </span>
         </div>
       </div>
-      <div className="flex flex-wrap-reverse sm:flex-nowrap items-center justify-center">
-        <div className="mx-3 text-center sm:text-right">
+      <div className="flex flex-wrap-reverse sm:flex-nowrap w-full justify-center sm:justify-around items-center">
+        <div className="mx-3 max-w-lg">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
             <strong>Cook Systems</strong>
           </h3>
@@ -95,33 +98,27 @@ export default function Education() {
             aria-label="See the full bootcamp certificate in a new tab"
           >
             <Image
-              src="https://lh3.googleusercontent.com/pw/AP1GczMUsio1OgSlnMwhroEu8UxHY2lB5xSi0CuKBWb5XsikdgtiXsqyILyKcvzeM-fEAt1WtX9PiSQ5_3ODaCZuz7wzcLxpceLHDfcXLbkEyfQB_F3Ydw=w2400"
+              src="https://lh3.googleusercontent.com/pw/AP1GczPLwcZHC34W9dabwLZbKBAh81nJaXR8IEM5bMgUxJ9gBLHr1w9hbJITpR0SPL04NbF1F_bJ_tAyipe4PDWalM5nGwLuMIVYAK1uluLc5AZuPycc7zQCEoX0E2SnAji7fmyARRqZ-rmsxVs68MoTXlA=w380-h379-s-no-gm?authuser=0"
               alt="FastTrack Training Program Badge"
               width={800}
               height={800}
-              className="rounded-xl"
+              className="rounded-full shadow-lg max-w-3xs"
             />
           </a>
         </div>
       </div>
 
-      <div className="flex flex-wrap sm:flex-nowrap items-center justify-center">
+      <div className="flex flex-wrap sm:flex-nowrap w-full justify-center sm:justify-around items-center">
         <div>
-          <a
-            href="https://www.credential.net/embed/bd46cc82-4e3f-409b-a2a3-f29b28415385"
-            target="_blank"
-            aria-label="See the full bootcamp certificate in a new tab"
-          >
             <Image
               src="https://lh3.googleusercontent.com/pw/AP1GczPkPktMLe8luyLR-gmvf4GuGCkMUD0nOjoOXOCVpDiQ8V8MStePkqac4r38TNxUJF2RxqAAdgIvloxZKMdxPDaGaBBhqYHDi9gYJsAx-I5Y9PoZvg=w2400"
               alt="Sarah with Drupal Career Online Certificate"
               width={600}
               height={800}
-              className="rounded-xl"
+              className="rounded-xl shadow-lg max-w-3xs"
             />
-          </a>
         </div>
-        <div className="mx-3 text-center sm:text-left">
+        <div className="mx-3 max-w-lg">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
             <strong>DrupalEasy</strong>
           </h3>
