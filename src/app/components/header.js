@@ -44,7 +44,7 @@ export default function Header() {
               >
                 <a
                   href={link.href}
-                  className="sm:text-3xl text-2xl font-medium tracking-widest sm:tracking-normal"
+                  className="sm:text-3xl text-2xl font-medium tracking-widest sm:tracking-normal no-underline"
                 >
                   {link.section}
                 </a>

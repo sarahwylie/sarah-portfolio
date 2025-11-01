@@ -19,8 +19,10 @@ export default function Education() {
         </p>
       </div>
 
-      <div className="flex flex-wrap-reverse sm:flex-nowrap w-full justify-center sm:justify-around items-center">
-        <div className="mx-2 max-w-lg">
+
+      <div className="lg:columns-2 items-center">
+      <div className="flex flex-wrap-reverse w-full justify-center sm:justify-around items-center">
+        <div className="mx-2 max-w-lg items-center">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
             <strong>Bachelor&apos;s Degree</strong>
           </h3>
@@ -48,7 +50,7 @@ export default function Education() {
         </div>
       </div>
 
-      <div className="flex flex-wrap sm:flex-nowrap w-full justify-center sm:justify-around items-center">
+      <div className="flex flex-wrap w-full justify-center sm:justify-around items-center">
         <div>
           <Image
             src="https://lh3.googleusercontent.com/pw/AP1GczOSdEZU-OQUlT4jgY2wfLfFW6uPm989Pqk68BwiJyNwEdkWEPtndcIXNrnt71l_dAkBdJs7-C2vhZThQz60FRGsUmmC0F85xSfIWV8zATwiNrbv4g=s225-p-k"
@@ -58,7 +60,7 @@ export default function Education() {
             className="rounded-xl shadow-lg max-w-3xs"
           />
         </div>
-        <div className="mx-3 max-w-lg">
+        <div className="mx-3 max-w-lg mb-8 lg:mb-0 items-center">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
             <strong>Bootcamp</strong>
           </h3>
@@ -75,8 +77,12 @@ export default function Education() {
           </span>
         </div>
       </div>
-      <div className="flex flex-wrap-reverse sm:flex-nowrap w-full justify-center sm:justify-around items-center">
-        <div className="mx-3 max-w-lg">
+    </div>
+
+
+      <div className="lg:columns-2 items-center">
+      <div className="flex flex-wrap-reverse w-full justify-center sm:justify-around items-center">
+        <div className="mx-2 max-w-lg items-center">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
             <strong>Cook Systems</strong>
           </h3>
@@ -91,7 +97,7 @@ export default function Education() {
             </p>
           </span>
         </div>
-        <div className="xs:order-1">
+        <div>
           <a
             href="https://www.credential.net/embed/bd46cc82-4e3f-409b-a2a3-f29b28415385"
             target="_blank"
@@ -108,7 +114,7 @@ export default function Education() {
         </div>
       </div>
 
-      <div className="flex flex-wrap sm:flex-nowrap w-full justify-center sm:justify-around items-center">
+      <div className="flex flex-wrap w-full justify-center sm:justify-around items-center">
         <div>
             <Image
               src="https://lh3.googleusercontent.com/pw/AP1GczPkPktMLe8luyLR-gmvf4GuGCkMUD0nOjoOXOCVpDiQ8V8MStePkqac4r38TNxUJF2RxqAAdgIvloxZKMdxPDaGaBBhqYHDi9gYJsAx-I5Y9PoZvg=w2400"
@@ -118,7 +124,7 @@ export default function Education() {
               className="rounded-xl shadow-lg max-w-3xs"
             />
         </div>
-        <div className="mx-3 max-w-lg">
+        <div className="mx-3 max-w-lg mb-8 lg:mb-0 items-center">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
             <strong>DrupalEasy</strong>
           </h3>
@@ -130,21 +136,22 @@ export default function Education() {
               online intensive learning Drupal, then I would intern at that
               company for three months. I had never even heard of Drupal, but{" "}
               <a href="https://www.drupaleasy.com/users/ultimike" target="_blank"
-              aria-label="Open Mike Anello's website">
+              aria-label="Open Mike Anello's website" className="font-semibold">
                 Mike Anello&apos;s
               </a>{" "}
               class (along with the amazing mentorship of{" "}
               <a href="https://www.drupal.org/u/iajon" target="_blank"
-            aria-label="See Alex Jones's Drupal profile">Alex Jones</a>) got me up
+            aria-label="See Alex Jones's Drupal profile" className="font-semibold">Alex Jones</a>) got me up
               to speed in time to start at{" "}
               <a href="https://www.palantir.net/" target="_blank"
-            aria-label="Visit the Palantir.net company website">Palantir.net</a>. By the time
+            aria-label="Visit the Palantir.net company website" className="font-semibold">Palantir.net</a>. By the time
               I was hired at the end of my internship, I was already using my
               JavaScript skills to help build a breakthrough collaborative
               editing module.
             </p>
           </span>
         </div>
+      </div>
       </div>
     </>
   );

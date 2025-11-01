@@ -9,7 +9,7 @@ export default function Tooltip() {
         <h1 className="text-4xl sm:text-5xl font-bold tracking-wide mb-10 dark:text-[#FFD43B]">
           USWDS Dynamic Tooltip
         </h1>
-        <span className="m-4 italic">
+        <span className="m-4 italic lg:w-2/3">
           While customizing a page for a client, I realized that the U.S. Web
           Design System (USWDS) Tooltip component we were using did not allow
           developers to dynamically update text. Since the client&apos;s theme

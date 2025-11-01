@@ -55,7 +55,7 @@ export default function ProjectLayout({ children }) {
                   >
                     <a
                       href={link.href}
-                      className="sm:text-3xl text-2xl font-medium tracking-widest sm:tracking-normal"
+                      className="sm:text-3xl text-2xl font-medium tracking-widest sm:tracking-normal no-underline"
                     >
                       {link.section}
                     </a>
@@ -68,13 +68,9 @@ export default function ProjectLayout({ children }) {
 
         {children}
 
-        <div className="flex gap-4 flex-row w-fit sm:w-auto items-center justify-center">
-          <Image
-            src={Divider}
-            alt="Horizontal divider"
-            className="rounded-md text-center"
-          />
-        </div>
+              <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+                <hr className="my-12 h-1 opacity-100 w-2/3" />
+              </div>
 
         <div
           className="flex flex-col mb-6 text-center sm:text-start w-fit sm:w-auto italic"

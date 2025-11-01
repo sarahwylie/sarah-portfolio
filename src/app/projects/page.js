@@ -26,7 +26,7 @@ export default function ProjectPage() {
               While working on a group project, I offered to lead usage of a third-party API and integration with the client&apos;s Drupal site. By the time I wrapped, I had written a custom Drupal module with a full page of JavaScript to manipulate the DOM.
             </p>
           </span>
-          <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
+          <span className="my-2 dark:text-[#FFD43B] hover:text-[#FF862E]">
             <strong>
               <Link href="/projects/EventStyling">Learn More</Link>
             </strong>
@@ -44,7 +44,7 @@ export default function ProjectPage() {
               When I had to write a patch to override the default behavior of a U.S. Web Design System (USWDS) component for a client, I took it a step further and used my own time to contribute the code back to the open-source community.
             </p>
           </span>
-          <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
+          <span className="my-2 dark:text-[#FFD43B] hover:text-[#FF862E]">
             <strong>
               <Link href="/projects/Tooltip">Learn More</Link>
             </strong>
@@ -80,7 +80,7 @@ export default function ProjectPage() {
               I was tasked with determining whether an entire theme could be overhauled and changed from SASS-based to fully Vanilla CSS. The twist was whether it could be done with only a few weeks of solid work until it would be presented to the world.
             </p>
           </span>
-          <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
+          <span className="my-2 dark:text-[#FFD43B] hover:text-[#FF862E]">
             <strong>
               <Link href="/projects/CSSvSASS">Learn More</Link>
             </strong>

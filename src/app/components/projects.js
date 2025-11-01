@@ -22,6 +22,7 @@ export default function Projects() {
       </div>
 
       <div className="lg:columns-2 items-center">
+        
         <div className="flex flex-wrap w-full justify-center sm:justify-around items-center">
           <div>
             <Image
@@ -42,7 +43,7 @@ export default function Projects() {
                 website to showcase the adoptable puppies of course!
               </p>
             </span>
-            <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
+            <span className="my-2 dark:text-[#FFD43B] hover:text-[#FF862E]">
               <strong>
                 <Link href="/projects/Puppalooza">Learn More</Link>
               </strong>
@@ -51,7 +52,7 @@ export default function Projects() {
         </div>
 
         <div className="flex flex-wrap-reverse w-full justify-center sm:justify-around items-center">
-          <div className="mx-3 max-w-lg">
+          <div className="mx-3 max-w-lg items-center">
             <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
               <strong>Wildflower</strong>
             </h3>
@@ -63,14 +64,14 @@ export default function Projects() {
                 accessibility and design overhaul of the landing page.
               </p>
             </span>
-            <span className="my-2 dark:text-[#FFD43B] hover:text-[#C25C7E]">
+            <span className="my-2 dark:text-[#FFD43B] hover:text-[#FF862E]">
               <strong>
                 <Link href="/projects/Wildflower">Learn More</Link>
               </strong>
             </span>
           </div>
 
-          <div className="order-1">
+          <div>
             <Image
               src="https://lh3.googleusercontent.com/pw/AP1GczMUEVv-iLkkbPpvfv69vctkVZX1f9cMaZmLzaipG5_i4WkBHKyw35pTDuIXlodq_NXv1Np7SfvjhvxABXU9mBtnLXEEvb_ZdiW7l1jWgLqKIUs7tg=w2400"
               alt="Wildflower website transition"

@@ -19,12 +19,13 @@
   }
 }
 
-a {
+a:hover {
+  text-decoration: underline;
   font-weight: bold;
 }
 
-a:hover {
-  text-decoration: underline;;
+.no-underline:hover {
+  text-decoration: none;
 }
 
 body {
@@ -40,4 +41,8 @@ hr {
   border-top-style: var(--tw-border-style);
   border-top-width: 3px;
   background-color: #FF862E;
+}
+
+.font-medium {
+  font-weight: 500;
 }
