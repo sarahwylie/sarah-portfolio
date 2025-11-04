@@ -1,7 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import SWLogo from "../components/SWlogo.png";
-import Divider from "../divider.jpg";
 import Footer from "../components/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faS } from "@fortawesome/free-solid-svg-icons/faS";
@@ -24,9 +21,9 @@ const headerLinks = [
 
 export default function ProjectLayout({ children }) {
   return (
-    <section>
+    <>
       <div className="grid items-center justify-items-center p-8 gap-16 font-[family-name:var(--font-noto-sans)] w-full">
-        <div className="flex flex-wrap-reverse sm:flex-nowrap items-center w-full justify-center sm:justify-between">
+        <header className="flex flex-wrap-reverse sm:flex-nowrap items-center w-full justify-start sm:justify-between">
           <div className="hidden md:flex justify-start">
             <Link href="/">
               <div className="hidden md:flex justify-start items-center pt-5">
@@ -45,9 +42,8 @@ export default function ProjectLayout({ children }) {
               </div>
             </Link>
           </div>
-          <div className="flex justify-center md:justify-end dark:text-[#24e4e3] w-full md:w-auto">
-            <nav>
-              <ul className="text-center list-none flex-col sm:flex-row">
+          <nav className="flex justify-start md:justify-end dark:text-[#24e4e3] w-full md:w-auto">
+              <ul className="list-none flex-col sm:flex-row">
                 {headerLinks.map((link) => (
                   <li
                     key={link.section}
@@ -62,30 +58,25 @@ export default function ProjectLayout({ children }) {
                   </li>
                 ))}
               </ul>
-            </nav>
-          </div>
-        </div>
+          </nav>
+        </header>
 
         {children}
 
-              <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-                <hr className="my-12 h-1 opacity-100 w-2/3" />
-              </div>
-
-        <div
+        <footer
           className="flex flex-col mb-6 text-center sm:text-start w-fit sm:w-auto italic"
           id="contact"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-wide dark:text-[#FFD43B]">
+          <h2 className="text-3xl sm:text-4xl font-medium tracking-wide dark:text-[#FFD43B]">
             Let&apos;s work together!
           </h2>
           <span className="m-4">
             Need a developer? Have a question? Want a new friend?
             <p className="mt-4 ml-8">Let&apos;s connect!</p>
           </span>
-        </div>
         <Footer />
+        </footer>
       </div>
-    </section>
+    </>
   );
 }

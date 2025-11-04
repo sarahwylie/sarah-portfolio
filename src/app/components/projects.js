@@ -5,10 +5,10 @@ export default function Projects() {
   return (
     <>
       <div
-        className="flex flex-col items-left justify-items-start text-center sm:text-start w-fit sm:w-auto italic"
+        className="flex flex-col items-left justify-items-start text-start w-fit sm:w-auto italic"
         id="projects"
       >
-        <h2 className="text-3xl sm:text-4xl font-semibold tracking-wide dark:text-[#FFD43B]">
+        <h2 className="text-3xl sm:text-4xl font-medium tracking-wide dark:text-[#FFD43B]">
           Some of my recent projects
         </h2>
         <p className="mx-4">
@@ -22,7 +22,7 @@ export default function Projects() {
       </div>
 
       <div className="lg:columns-2 items-center">
-        
+
         <div className="flex flex-wrap w-full justify-center sm:justify-around items-center">
           <div>
             <Image
@@ -35,7 +35,7 @@ export default function Projects() {
           </div>
           <div className="mx-3 max-w-lg mb-8 lg:mb-0 items-center">
             <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
-              <strong>Puppalooza</strong>
+              Puppalooza
             </h3>
             <span>
               <p className="my-2">
@@ -43,10 +43,8 @@ export default function Projects() {
                 website to showcase the adoptable puppies of course!
               </p>
             </span>
-            <span className="my-2 dark:text-[#FFD43B] hover:text-[#FF862E]">
-              <strong>
+            <span className="my-2 hover:text-[#B84D00] dark:text-[#FFD43B] dark:hover:text-[#FF862E] tracking-widest font-medium">
                 <Link href="/projects/Puppalooza">Learn More</Link>
-              </strong>
             </span>
           </div>
         </div>
@@ -54,7 +52,7 @@ export default function Projects() {
         <div className="flex flex-wrap-reverse w-full justify-center sm:justify-around items-center">
           <div className="mx-3 max-w-lg items-center">
             <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
-              <strong>Wildflower</strong>
+              Wildflower
             </h3>
             <span>
               <p className="my-2">
@@ -64,10 +62,8 @@ export default function Projects() {
                 accessibility and design overhaul of the landing page.
               </p>
             </span>
-            <span className="my-2 dark:text-[#FFD43B] hover:text-[#FF862E]">
-              <strong>
+            <span className="my-2 hover:text-[#B84D00] dark:text-[#FFD43B] dark:hover:text-[#FF862E] tracking-widest font-medium">
                 <Link href="/projects/Wildflower">Learn More</Link>
-              </strong>
             </span>
           </div>
 

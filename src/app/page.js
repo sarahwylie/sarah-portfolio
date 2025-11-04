@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Divider from "./divider.jpg";
 import Header from "./components/header";
 import About from "./components/about";
 import Education from "./components/education";
@@ -33,7 +32,7 @@ export default function Home() {
               </a>
             </div>
             <br />
-            <h1 className="text-4xl sm:text-5xl font-semibold tracking-wide mb-10 dark:text-[#FFD43B]">
+            <h1 className="text-4xl sm:text-5xl font-medium tracking-wide mb-10 dark:text-[#FFD43B]">
               Hi! I&apos;m Sarah.
             </h1>
             {/* <h2 className="text-2xl sm:text-3xl font-semibold italic">
@@ -70,13 +69,13 @@ export default function Home() {
 
           <Projects />
           <div
-            className="flex flex-col justify-center text-center w-fit sm:w-auto italic"
+            className="flex flex-col justify-center text-center w-fit sm:w-auto italic mt-10"
             id="projects"
           >
             <Link href="/projects">
-              <h3 className="text-3xl sm:text-4xl font-semibold tracking-wide dark:text-[#FFD43B]">
+              <span className="text-3xl sm:text-4xl font-medium tracking-wide hover:font-bold hover:text-[#B84D00] dark:text-[#FFD43B] dark:hover:text-[#FF862E]">
                 See more projects here
-              </h3>
+              </span>
             </Link>
           </div>
           <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
@@ -89,7 +88,7 @@ export default function Home() {
             className="flex flex-col mb-6 text-center sm:text-start w-fit sm:w-auto italic"
             id="contact"
           >
-            <h2 className="text-3xl sm:text-4xl font-semibold tracking-wide dark:text-[#FFD43B]">
+            <h2 className="text-3xl sm:text-4xl font-medium tracking-wide dark:text-[#FFD43B]">
               Reach out to me
             </h2>
             <p className="mx-4">I&apos;d love to hear from you!</p>

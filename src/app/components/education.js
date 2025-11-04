@@ -24,7 +24,7 @@ export default function Education() {
       <div className="flex flex-wrap-reverse w-full justify-center sm:justify-around items-center">
         <div className="mx-2 max-w-lg items-center">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
-            <strong>Bachelor&apos;s Degree</strong>
+            Bachelor&apos;s Degree
           </h3>
           <span>
             <p className="my-2 text-base">
@@ -62,7 +62,7 @@ export default function Education() {
         </div>
         <div className="mx-3 max-w-lg mb-8 lg:mb-0 items-center">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
-            <strong>Bootcamp</strong>
+            Bootcamp
           </h3>
           <span>
             <p className="my-2 text-base">
@@ -84,7 +84,7 @@ export default function Education() {
       <div className="flex flex-wrap-reverse w-full justify-center sm:justify-around items-center">
         <div className="mx-2 max-w-lg items-center">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
-            <strong>Cook Systems</strong>
+            Cook Systems
           </h3>
           <span>
             <p className="my-2 text-base">
@@ -126,7 +126,7 @@ export default function Education() {
         </div>
         <div className="mx-3 max-w-lg mb-8 lg:mb-0 items-center">
           <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
-            <strong>DrupalEasy</strong>
+            DrupalEasy
           </h3>
           <span>
             <p className="my-2 text-base">

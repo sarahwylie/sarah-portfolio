@@ -34,9 +34,9 @@ export default function Header() {
           className="dark:text-[#FFD43B] text-6xl"
         /></span>
       </div>
-      <div className="flex justify-center items-center md:justify-end dark:text-[#24e4e3] w-full md:w-auto">
+      <div className="flex justify-start items-center md:justify-end dark:text-[#24e4e3] w-full md:w-auto">
         <nav>
-          <ul className="text-center list-none flex-col sm:flex-row">
+          <ul className="list-none flex-col sm:flex-row">
             {headerLinks.map((link) => (
               <li
                 key={link.section}

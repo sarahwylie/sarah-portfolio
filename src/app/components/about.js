@@ -6,7 +6,7 @@ export default function About() {
       className="text-base text-start"
       id="about"
     >
-        <h2 className="text-3xl sm:text-4xl font-semibold italic tracking-wide dark:text-[#FFD43B]">
+        <h2 className="text-3xl sm:text-4xl font-medium italic tracking-wide dark:text-[#FFD43B]">
             A bit about me
         </h2>
       <p className="italic mx-4">
@@ -15,14 +15,12 @@ export default function About() {
       </p>
       <br />
       <div className="md:columns-2 mb-5">
-      {/* <p className="md:indent-6"> */}
       <p>
         Shortly out of college, I scored a job I loved running youth programming
         at a major public library. Unfortunately, the role was only part-time
         and contingent on grant funding.
       </p>
       <br />
-      {/* <p className="md:indent-10"> */}
       <p>
         I opted to follow a different passion, quit the job, and moved to
         Chicago to play roller derby at the highest level. Out of necessity, I
@@ -30,7 +28,6 @@ export default function About() {
         to travel the world playing roller derby.
       </p>
       <br />
-      {/* <p className="md:indent-14"> */}
       <p>
         After I hung up my skates and moved across the country to Austin, TX, I
         knew I wanted to find something that would fulfill my drive to help
@@ -39,7 +36,6 @@ export default function About() {
         building things.
       </p>
       <br />
-      {/* <p className="md:indent-18"> */}
       <p>
         I took the plunge and left the financial industry to pursue web
         development full-time, which started my journey with some of the most
