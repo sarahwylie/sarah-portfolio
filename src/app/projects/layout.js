@@ -6,11 +6,11 @@ import { faW } from "@fortawesome/free-solid-svg-icons/faW";
 
 const headerLinks = [
   {
-    href: "/",
+    href: "/sarah-portfolio",
     section: "Home",
   },
   {
-    href: "/projects",
+    href: "/sarah-portfolio/projects",
     section: "Projects",
   },
   {
@@ -25,7 +25,7 @@ export default function ProjectLayout({ children }) {
       <div className="grid items-center justify-items-center p-8 gap-16 font-[family-name:var(--font-noto-sans)] w-full">
         <header className="flex flex-wrap-reverse sm:flex-nowrap items-center w-full justify-start sm:justify-between">
           <div className="hidden md:flex justify-start">
-            <Link href="/">
+            <Link href="/sarah-portfolio">
               <div className="hidden md:flex justify-start items-center pt-5">
                 <span className="sr-only">Sarah Wylie Logo</span>
                 <span className="fa-layers">
