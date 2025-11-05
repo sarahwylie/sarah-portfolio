@@ -28,7 +28,7 @@ export default function Home() {
                 title="World's finest UX-er"
                 target="_blank"
               >
-                Image courtesy of Jack Graham - click to see more of his work
+                Image courtesy of Jack Graham - view his work
               </a>
             </div>
             <br />
