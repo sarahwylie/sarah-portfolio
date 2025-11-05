@@ -27,11 +27,11 @@ export default function Header() {
       <div className="hidden md:flex justify-start items-center pt-5">
         <span className="sr-only">Sarah Wylie Logo</span>
         <span className="fa-layers">
-        <FontAwesomeIcon icon={faS} className="dark:text-[#24e4e3] text-6xl" />
+        <FontAwesomeIcon icon={faS} className="text-lime-950 dark:text-[#24e4e3] text-6xl" />
         <FontAwesomeIcon
           icon={faW}
           transform="shrink-6"
-          className="dark:text-[#FFD43B] text-6xl"
+          className="text-[#B84D00] dark:text-[#FFD43B] text-6xl"
         /></span>
       </div>
       <div className="flex justify-start items-center md:justify-end dark:text-[#24e4e3] w-full md:w-auto">
