@@ -31,7 +31,7 @@ export default function ProjectLayout({ children }) {
                 <span className="fa-layers">
                   <FontAwesomeIcon
                     icon={faS}
-                    className="text-lime-950 dark:text-[#24e4e3] text-6xl"
+                    className="text-lime-800 dark:text-[#24e4e3] text-6xl"
                   />
                   <FontAwesomeIcon
                     icon={faW}
