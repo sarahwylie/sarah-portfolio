@@ -53,9 +53,9 @@ export default function CSSvSASS() {
                 <div className="grid sm:grid-cols-2 gap-2">
                     <div className="text-left place-items-center content-center">
                         <span className="mx-3">
-                            <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+                            <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                                 Project Purpose
-                            </h3>
+                            </h2>
                             <p className="m-4 text-base">
                                 When asked if phasing out SASS and moving the theme to Vanilla CSS would be feasible, I couldn&apos;t give a simple yes or no. I needed a fully researched, step-by-step plan of whether we could make it happen. I ended up writing four different in-depth analyses with recommendations to allow us a fully developed plan with accountability to the Drupal community:</p>
                                 <ol>
@@ -70,18 +70,18 @@ export default function CSSvSASS() {
                         </span>
 
                         <span className="mx-3">
-                            <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+                            <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                                 Web Stack and Explanation
-                            </h3>
+                            </h2>
                             <p className="m-4 text-base">
                                 Since this was a redesign and modernization of the Drupal.org site, building it anywhere besides Drupal would have been pretty silly. Being able to deliver and present solutions directly to some of the biggest leaders in the Drupalverse was an incredible opportunity, and I did my best not to squander even one minute of it. Since we needed a plan before we could move forward, this portion of the project focused mainly on research and planning, but I stayed on for the early stages of theme building, doing my best to stay involved even as I transitioned off the project.
                             </p>
                         </span>
 
                         <span className="mx-3">
-                            <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+                            <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                                 Struggles and Reflections
-                            </h3>
+                            </h2>
                             <p className="m-4 text-base">
                                 Getting this project off the ground was challenging, as I had time and resources stacked against me. I was the only full-time person from my company on this project at the start, which is why I handled so much of the initial documentation and auditing. We had only three months from learning about the project before the new website would be unveiled to the world at DrupalCon Barcelona, and at least one month of this time was spent analyzing the existing theme and strategizing how to move forward. Luckily some talented developers joined after a few weeks, and we quickly started adding components to the theme so the Drupal.org team could start testing and providing feedback. Overall, this was an incredible learning experience for me, and I am proud of the work we accomplished in such a short time.
                             </p>

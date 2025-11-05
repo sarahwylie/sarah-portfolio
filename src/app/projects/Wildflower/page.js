@@ -77,9 +77,9 @@ export default function Wildflower() {
         <div className="grid sm:grid-cols-2 gap-2">
           <div className="text-left place-items-center content-center">
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Project Purpose
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 As mentioned above, this site fulfilled my drive to learn while
                 simultaneously allowing me to fulfill a volunteer requirement.
@@ -93,9 +93,9 @@ export default function Wildflower() {
             </span>
 
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Web Stack and Explanation
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 The Wildflower site was already built in WordPress, so I
                 inherited it from a series of people (some developers and some
@@ -113,9 +113,9 @@ export default function Wildflower() {
             </span>
 
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Struggles and Reflections
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 I have no design training, so knowing how to arrange all the
                 elements in a cohesive and understandable order was challenging,

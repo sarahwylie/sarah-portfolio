@@ -93,9 +93,9 @@ export default function Tooltip() {
         <div className="grid sm:grid-cols-2 gap-2">
           <div className="text-left place-items-center content-center">
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Project Purpose
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 This was a feature for a new section of a client&apos;s website.
                 My focus was building out the functionality for a list of
@@ -108,9 +108,9 @@ export default function Tooltip() {
               </p>
             </span>
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Web Stack and Explanation
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 The site was already built in Drupal, which generally uses PHP
                 for its backend, but the new functionality would require a
@@ -122,9 +122,9 @@ export default function Tooltip() {
             </span>
 
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Struggles and Reflections
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 This custom module held thousands of lines of code and required
                 several refactors. I didn&apos;t complete this feat alone, but

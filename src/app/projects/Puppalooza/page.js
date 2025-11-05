@@ -79,9 +79,9 @@ export default function Puppalooza() {
         <div className="grid sm:grid-cols-2 gap-2">
           <div className="text-left place-items-center content-center">
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Project Purpose
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 This website did not start with design ideas, color palettes, or
                 wireframes, rather it was an effort to build something quickly
@@ -92,9 +92,9 @@ export default function Puppalooza() {
             </span>
 
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Web Stack and Explanation
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 I needed to build this site quickly, and I wouldn&apos;t need to
                 scale up or store anything on the backend, so React felt like
@@ -115,9 +115,9 @@ export default function Puppalooza() {
             </span>
 
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Struggles and Reflections
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 I took a big leap of faith in my ability to get a React project
                 running quickly. Although I learned to code with React and

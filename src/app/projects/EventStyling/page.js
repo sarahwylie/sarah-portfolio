@@ -70,9 +70,9 @@ export default function EventStyling() {
         <div className="grid sm:grid-cols-2 gap-2">
           <div className="text-left place-items-center content-center">
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Project Purpose
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 This project&apos;s client relied on a third-party events
                 integration tool, 25Live, to manage and display event data. The
@@ -106,9 +106,9 @@ export default function EventStyling() {
             </span>
 
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Web Stack and Explanation
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 This project marked my first foray into Site Studio, which is a
                 version of Drupal that is supposed to allow companies more
@@ -123,9 +123,9 @@ export default function EventStyling() {
             </span>
 
             <span className="mx-3">
-              <h3 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Struggles and Reflections
-              </h3>
+              </h2>
               <p className="m-4 text-base">
                 My project team and I were all learning Site Studio on the fly
                 as we built. Additionally, our lead developer was unexpectedly
