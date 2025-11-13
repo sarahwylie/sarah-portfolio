@@ -54,7 +54,7 @@ export default function Projects() {
             </h3>
             <span className="flex w-full text-justify">
               <p className="my-2">
-                A U.S. Web Design System (USWDS) component wasn't dynamic, so I
+                A U.S. Web Design System (USWDS) component wasn&apos;t dynamic, so I
                 dug into the source code, wrote a patch, and contributed the
                 updated code back to the open-source community.
               </p>

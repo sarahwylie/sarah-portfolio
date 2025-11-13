@@ -7,7 +7,7 @@ export default function CSSvSASS() {
                 <h1 className="text-4xl sm:text-5xl font-medium tracking-wide mb-10 dark:text-[#FFD43B]">
                     CSS vs SASS 
                 </h1>
-                <span className="m-4 italic w-full text-justify">
+                <span className="my-4 italic w-full text-justify">
                 When I received the assignment to work with the Drupal Organization to help accelerate the upgrade of the Drupal.org website, I also learned that I would be the only person from my company assigned to the project full-time in the beginning. The team at Drupal asked me to focus on overhauling the theme, so I started a series of documents outlining the current state of the theme, what it would take to upgrade each part, and recommendations for moving forward. Then they asked about the feasibility of removing SASS from the theme entirely and doing a CSS-only structure, so I started in on the research.
             </span>
             </div>
