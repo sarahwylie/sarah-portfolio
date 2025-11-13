@@ -4,11 +4,11 @@ import DynamicTooltip from "./dynamicTooltip.gif";
 export default function Tooltip() {
   return (
     <main className="flex flex-col gap-[32px] row-start-2 mb-10">
-      <div className="items-center justify-center text-center">
+      <div className="items-center justify-start text-justify">
         <h1 className="text-4xl sm:text-5xl font-medium tracking-wide mb-10 dark:text-[#FFD43B]">
           USWDS Dynamic Tooltip
         </h1>
-        <span className="m-4 italic w-full lg:max-w-2/3">
+        <span className="my-4 italic w-full text-justify">
           While customizing a page for a client, I realized that the U.S. Web
           Design System (USWDS) Tooltip component we were using did not allow
           developers to dynamically update text. Since the client&apos;s theme
@@ -26,7 +26,7 @@ export default function Tooltip() {
           benefit from the enhancement.
         </span>
       </div>
-      <div className="grid lg:grid-cols-2 gap-8 mx-3 items-center justify-center">
+      <div className="grid lg:grid-cols-2 gap-8 items-center justify-center">
         <div className="items-center justify-center text-center">
           <Image
             src={DynamicTooltip}
@@ -89,14 +89,14 @@ export default function Tooltip() {
         <hr className="my-12 h-1 opacity-100 w-2/3" />
       </div>
 
-      <div className="w-full space-y-6 px-4 items-center content-center">
+      <div className="w-full space-y-6 items-center content-center">
         <div className="grid sm:grid-cols-2 gap-2">
           <div className="text-left place-items-center content-center">
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Project Purpose
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 This was a feature for a new section of a client&apos;s website.
                 My focus was building out the functionality for a list of
                 resources, including toggle buttons that would update state, a
@@ -107,11 +107,11 @@ export default function Tooltip() {
                 clear explanation for the changing state of the button.
               </p>
             </span>
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Web Stack and Explanation
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 The site was already built in Drupal, which generally uses PHP
                 for its backend, but the new functionality would require a
                 carefully choreographed dance with the DOM to allow each
@@ -121,11 +121,11 @@ export default function Tooltip() {
               </p>
             </span>
 
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Struggles and Reflections
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 This custom module held thousands of lines of code and required
                 several refactors. I didn&apos;t complete this feat alone, but
                 while working closely with the senior developer and the UX
@@ -147,7 +147,8 @@ export default function Tooltip() {
               </p>
             </span>
           </div>
-          <div className="grid grid-col md:grid-cols-2 gap-4 w-full place-items-center content-center">
+
+          <div className="grid grid-col gap-6 w-full place-items-center content-center">
             <div>
               <Image
                 src="https://lh3.googleusercontent.com/pw/AP1GczNgIHRkai3Mz9BqKzsS0l31tUn97I5uHbkDtHgdCqwxvQBD81XP75dHA313V9mi1QIOopkEeiL1uj0AWte8XcO-LONnmYBnZlwgC3TgYZBKu6IkBVEvgQTjEShqNeq-hlRwDREYIYadwyDIlUnYxNs=w219-h107-s-no-gm?authuser=0"
@@ -175,9 +176,9 @@ export default function Tooltip() {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-        <hr className="my-12 h-1 opacity-100 w-2/3" />
-      </div>
+          <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+            <hr className="h-1 opacity-100 w-full" />
+          </div>
     </main>
   );
 }

@@ -64,15 +64,15 @@ export default function ProjectLayout({ children }) {
         {children}
 
         <footer
-          className="flex flex-col mb-6 text-center sm:text-start w-fit sm:w-auto italic"
+          className="flex flex-col mb-10 text-start w-full italic"
           id="contact"
         >
           <h2 className="text-3xl sm:text-4xl font-medium tracking-wide dark:text-[#FFD43B]">
             Let&apos;s work together!
           </h2>
-          <span className="m-4">
+          <span className="mt-4 mb-10">
             Need a developer? Have a question? Want a new friend?
-            <p className="mt-4 ml-8">Let&apos;s connect!</p>
+            <p>Let&apos;s connect!</p>
           </span>
         <Footer />
         </footer>

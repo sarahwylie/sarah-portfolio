@@ -8,12 +8,12 @@ import Projects from "./components/projects";
 
 export default function Home() {
   return (
-    <div className="grid items-center justify-items-center p-8 pb-10 gap-12 font-[family-name:var(--font-noto-sans)] w-full">
+    <div className="grid items-center justify-items-center p-8 px-15 pb-10 gap-12 font-[family-name:var(--font-noto-sans)] w-full">
       <Header />
       <div>
         <main className="flex flex-col gap-[32px] row-start-2 mb-10">
           <div className="items-center justify-center text-center">
-            <div className="flex flex-row items-center justify-center -mx-10 -px-10">
+            <div className="flex flex-row items-center justify-center -mx-20 -px-10">
               <Image
                 src="https://lh3.googleusercontent.com/pw/AP1GczPaSJpGLRfIGX3QN_DvAP5VQyJxMXcOHCzlyxVq0ZA-Bm4auzk5R7pKRqfAVF9Dh0PLeuJpZuVhQQN1zTtjVX-rEguMjJM3f6uuClcoUZDIWLT3vQ=w2400"
                 alt="Woman emitting code from her hand"
@@ -50,7 +50,7 @@ export default function Home() {
               </p>
               <br />
               <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-                <hr className="my-12 h-1 opacity-100 w-2/3" />
+                <hr className="my-12 h-1 opacity-100 w-full" />
               </div>
             </div>
           </div>
@@ -58,18 +58,18 @@ export default function Home() {
           <About />
 
           <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-            <hr className="my-12 h-1 opacity-100 w-2/3" />
+            <hr className="my-12 h-1 opacity-100 w-full" />
           </div>
 
           <Education />
 
           <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-            <hr className="my-12 h-1 opacity-100 w-2/3" />
+            <hr className="my-12 h-1 opacity-100 w-full" />
           </div>
 
           <Projects />
           <div
-            className="flex flex-col justify-center text-center w-fit sm:w-auto italic mt-10"
+            className="flex flex-col justify-center w-fit sm:w-auto italic mt-10"
             id="projects"
           >
             <Link href="/projects">
@@ -79,22 +79,22 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-            <hr className="my-12 h-1 opacity-100 w-2/3" />
+            <hr className="my-12 h-1 opacity-100 w-full" />
           </div>
         </main>
-        <footer className="row-start-3 flex flex-wrap flex-col items-center justify-center">
+        <footer className="flex flex-wrap flex-col">
           {/* CONTACT  */}
           <div
-            className="flex flex-col mb-6 text-center sm:text-start w-fit sm:w-auto italic"
+            className="flex flex-col mb-10 text-start w-full sm:w-auto italic"
             id="contact"
           >
             <h2 className="text-3xl sm:text-4xl font-medium tracking-wide dark:text-[#FFD43B]">
               Reach out to me
             </h2>
-            <p className="mx-4">I&apos;d love to hear from you!</p>
-            <p className="mx-5">Whether you have a question about my work,
+            <p className="mt-4">I&apos;d love to hear from you!</p>
+            <p>Whether you have a question about my work,
             want to collaborate on a project,</p>
-            <p className="mx-6">or just want to say hi, 
+            <p>or just want to say hi, 
             feel free to reach out.</p>
           </div>
           <Footer />

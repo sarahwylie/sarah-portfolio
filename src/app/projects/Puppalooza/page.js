@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function Puppalooza() {
   return (
     <main className="flex flex-col gap-[32px] row-start-2 mb-10">
-      <div className="items-center justify-center text-center">
+      <div className="items-center justify-start text-justify">
         <h1 className="text-4xl sm:text-5xl font-medium tracking-wide mb-10 dark:text-[#FFD43B]">
           Puppalooza
         </h1>
-        <span className="m-4 italic">
+        <span className="my-4 italic w-full text-justify">
           A cute pup was running around the neighborhood, and a rescue offered
           to catch her on the condition that someone offer to foster. One hour
           later we welcomed Willa into our home. As we settled into a new normal
@@ -19,7 +19,7 @@ export default function Puppalooza() {
           homes.
         </span>
       </div>
-      <div className="grid lg:grid-cols-2 gap-8 mx-3 items-center justify-center">
+      <div className="grid lg:grid-cols-2 gap-8 items-center justify-center">
         <div className="items-center justify-center text-center">
           <Image
             src="https://lh3.googleusercontent.com/pw/AP1GczNuFh4L2WRBprzDUZLzoIPjAqxdit7352e92p5dYp6Lp8XsanU2Y7MO11LIrbDeRAry9C6-O0Nm2UK2Vwj5YsEPpbU4HyVb6DlMJ8RaFJdl3Xlwyg=w2400"
@@ -34,15 +34,11 @@ export default function Puppalooza() {
         </div>
         <div className="grid grid-cols-2 gap-4">
           <div>
-              <span className="text-2xl my-3 dark:text-[#24e4e3]">
-                Type
-              </span>
-              <p className="mx-2">Personal</p>
+            <span className="text-2xl my-3 dark:text-[#24e4e3]">Type</span>
+            <p className="mx-2">Personal</p>
             <br />
             <div className="mb-10">
-              <span className="text-2xl my-3 dark:text-[#24e4e3]">
-                Visit
-              </span>
+              <span className="text-2xl my-3 dark:text-[#24e4e3]">Visit</span>
               <p className="dark:text-[#FFD43B] mx-2">
                 <a
                   href="https://sarahwylie.github.io/puppalooza/"
@@ -50,7 +46,7 @@ export default function Puppalooza() {
                   rel="noopener noreferrer"
                   aria-label="Open the Puppalooza site in a new tab"
                 >
-                    View the live site
+                  View the live site
                 </a>
               </p>
             </div>
@@ -59,30 +55,30 @@ export default function Puppalooza() {
             <span className="text-2xl my-3 dark:text-[#24e4e3]">
               Built with
             </span>
-              <ul className="list-none flex-col mx-2">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Tailwind CSS</li>
-                <li>TypeScript</li>
-                <li>GitHub Pages</li>
-                <li>Google Images</li>
-              </ul>
+            <ul className="list-none flex-col mx-2">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Tailwind CSS</li>
+              <li>TypeScript</li>
+              <li>GitHub Pages</li>
+              <li>Google Images</li>
+            </ul>
           </div>
         </div>
       </div>
 
       <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-        <hr className="my-12 h-1 opacity-100 w-2/3" />
+        <hr className="h-1 opacity-100 w-full" />
       </div>
 
-      <div className="w-full space-y-6 px-4 items-center content-center">
+      <div className="w-full space-y-6 items-center content-center">
         <div className="grid sm:grid-cols-2 gap-2">
           <div className="text-left place-items-center content-center">
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Project Purpose
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 This website did not start with design ideas, color palettes, or
                 wireframes, rather it was an effort to build something quickly
                 to showcase the puppies that had unexpectedly come into our
@@ -91,11 +87,11 @@ export default function Puppalooza() {
               </p>
             </span>
 
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Web Stack and Explanation
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 I needed to build this site quickly, and I wouldn&apos;t need to
                 scale up or store anything on the backend, so React felt like
                 the logical choice. I already had experience with React,
@@ -114,11 +110,11 @@ export default function Puppalooza() {
               </p>
             </span>
 
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Struggles and Reflections
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 I took a big leap of faith in my ability to get a React project
                 running quickly. Although I learned to code with React and
                 JavaScript, I had never used Next.js, and my TypeScript was a
@@ -173,7 +169,7 @@ export default function Puppalooza() {
         </div>
       </div>
       <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-        <hr className="my-12 h-1 opacity-100 w-2/3" />
+        <hr className="h-1 opacity-100 w-full" />
       </div>
     </main>
   );

@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function Wildflower() {
   return (
     <main className="flex flex-col gap-[32px] row-start-2 mb-10">
-      <div className="items-center justify-center text-center">
+      <div className="items-center justify-start text-justify">
         <h1 className="text-4xl sm:text-5xl font-medium tracking-wide mb-10 dark:text-[#FFD43B]">
           Wildflower Unitarian Universalist
         </h1>
-        <span className="m-4 italic">
+        <span className="my-4 italic w-full text-justify">
           I am always seeking volunteer opportunities, but I often have to be
           discerning because I have too many causes that are close to my heart. I was
           raised{" "}
@@ -15,6 +15,7 @@ export default function Wildflower() {
             href="https://www.uua.org/"
             target="_blank"
             aria-label="Visit the UUA website in a new tab"
+            className="font-semibold"
           >Unitarian Universalist </a>
           in Wisconsin, and when all four of my children
           came into our lives, I sought all the community help I could find,
@@ -24,7 +25,7 @@ export default function Wildflower() {
           continuously learn new things.
         </span>
       </div>
-      <div className="grid lg:grid-cols-2 gap-8 mx-3 items-center justify-center">
+      <div className="grid lg:grid-cols-2 gap-8 items-center justify-center">
         <div className="items-center justify-center text-center">
           <Image
             src="https://lh3.googleusercontent.com/pw/AP1GczPvTMGoh2_lJuGmE1mBhuxuvF0-vgJK6yoM_q8GzncxOHSPnOv-7Yw5QOnbdYLT00kdPoUfPB6zUuB492Ksk3nelDf4jLN60PdlAn45pb7l6bik2A=w2400"
@@ -69,18 +70,18 @@ export default function Wildflower() {
         </div>
       </div>
 
-      <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-        <hr className="my-12 h-1 opacity-100 w-2/3" />
-      </div>
+          <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+            <hr className="h-1 opacity-100 w-full" />
+          </div>
 
-      <div className="w-full space-y-6 px-4 items-center content-center">
+      <div className="w-full space-y-6 items-center content-center">
         <div className="grid sm:grid-cols-2 gap-2">
           <div className="text-left place-items-center content-center">
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Project Purpose
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 As mentioned above, this site fulfilled my drive to learn while
                 simultaneously allowing me to fulfill a volunteer requirement.
                 The beauty of this site is that I had full control with bits of
@@ -92,11 +93,11 @@ export default function Wildflower() {
               </p>
             </span>
 
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Web Stack and Explanation
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 The Wildflower site was already built in WordPress, so I
                 inherited it from a series of people (some developers and some
                 not) who had piecemealed new sections into the existing
@@ -112,11 +113,11 @@ export default function Wildflower() {
               </p>
             </span>
 
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Struggles and Reflections
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 I have no design training, so knowing how to arrange all the
                 elements in a cohesive and understandable order was challenging,
                 but figuring out color schemes was even harder. My Figma board
@@ -157,9 +158,9 @@ export default function Wildflower() {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-        <hr className="my-12 h-1 opacity-100 w-2/3" />
-      </div>
+          <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+            <hr className="mt-12 h-1 opacity-100 w-full" />
+          </div>
     </main>
   );
 }

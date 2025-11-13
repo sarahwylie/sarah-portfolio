@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function EventStyling() {
   return (
     <main className="flex flex-col gap-[32px] row-start-2 mb-10">
-      <div className="items-center justify-center text-center">
+      <div className="items-center justify-start text-justify">
         <h1 className="text-4xl sm:text-5xl font-medium tracking-wide mb-10 dark:text-[#FFD43B]">
           Event Styling
         </h1>
-        <span className="m-4 italic">
+        <span className="my-4 italic w-full text-justify">
           I was tasked with using a third-party events integration tool to style
           an embedded widget. After several direct attempts failed, I developed
           a custom Drupal module that used JavaScript to inject custom styles.
@@ -15,7 +15,7 @@ export default function EventStyling() {
           DOM updated (during user interactions like scrolling or clicking).
         </span>
       </div>
-      <div className="grid lg:grid-cols-2 gap-8 mx-3 items-center justify-center">
+      <div className="grid lg:grid-cols-2 gap-8 items-center justify-center">
         <div className="items-center justify-center text-center">
           <Image
             src="https://lh3.googleusercontent.com/pw/AP1GczMXrMggiaXMiJGlX-axk4TAOXXE0nh9jbmx3aoIdGp65ZlnYqVrozkiXCsmvkQZf4d8ed7LJWh0zD5EoMLysJ7lckaXuwLxSvUsjQw98JKUEUYkeQ=w2400"
@@ -63,17 +63,17 @@ export default function EventStyling() {
       </div>
 
       <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-        <hr className="my-12 h-1 opacity-100 w-2/3" />
+        <hr className="h-1 opacity-100 w-full" />
       </div>
 
-      <div className="w-full space-y-6 px-4 items-center content-center">
-        <div className="grid sm:grid-cols-2 gap-2">
+      <div className="w-full space-y-6 items-center content-center">
+        <div className="grid sm:grid-cols-2 gap-6">
           <div className="text-left place-items-center content-center">
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Project Purpose
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 This project&apos;s client relied on a third-party events
                 integration tool, 25Live, to manage and display event data. The
                 client wanted the embedded calendar component (“Event Slider
@@ -105,11 +105,11 @@ export default function EventStyling() {
               </p>
             </span>
 
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Web Stack and Explanation
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 This project marked my first foray into Site Studio, which is a
                 version of Drupal that is supposed to allow companies more
                 flexibility by making the majority of the back-end no-code once
@@ -122,11 +122,11 @@ export default function EventStyling() {
               </p>
             </span>
 
-            <span className="mx-3">
+            <span>
               <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
                 Struggles and Reflections
               </h2>
-              <p className="m-4 text-base">
+              <p className="mt-4 text-base w-full text-justify">
                 My project team and I were all learning Site Studio on the fly
                 as we built. Additionally, our lead developer was unexpectedly
                 hospitalized at the beginning of this project, shortly after he
@@ -169,7 +169,7 @@ export default function EventStyling() {
         </div>
       </div>
       <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-        <hr className="my-12 h-1 opacity-100 w-2/3" />
+        <hr className="h-1 opacity-100 w-full" />
       </div>
     </main>
   );
