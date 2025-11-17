@@ -14,8 +14,8 @@ export default function Education() {
           Just having a diploma doesn&apos;t cut it in this industry.
         </p>
         <p>
-          I am a lifelong learner, and I am always seeking out new opportunities
-          to grow my skills and knowledge.
+          I am a lifelong learner, always seeking new opportunities to level up
+          my skills and expand what I can build.
         </p>
       </div>
 
@@ -27,15 +27,14 @@ export default function Education() {
             </h3>
             <span>
               <p className="my-2 text-base w-full text-justify">
-                I grew up learning that a degree opens doors for my future. I
-                was passionate about literature and writing, so I pursued a
-                degree in English with minors in Native American Studies (a
-                byproduct of the English classes I was already required to take,
-                but one that I loved pursuing) and Global Studies. My time at
-                the University of Minnesota taught me to think critically,
-                communicate effectively, and approach problems with creativity
-                and empathy. These skills have been invaluable in my journey as
-                a web developer.
+                I grew up believing education opened doors, so I pursued what I
+                loved most—literature and writing. I earned my English degree
+                from the University of Minnesota, along with minors in Native
+                American Studies and Global Studies. My time at the University
+                of Minnesota taught me to think critically, communicate
+                effectively, and approach problems with creativity and empathy.
+                Those same skills now anchor the way I approach problem-solving
+                and collaboration as a web developer.
               </p>
             </span>
           </div>
@@ -64,13 +63,12 @@ export default function Education() {
             <h3 className="text-2xl my-3 dark:text-[#24e4e3]">Bootcamp</h3>
             <span>
               <p className="my-2 text-base w-full text-justify">
-                I was new to coding, but a fast learner and mature enough to
-                really take this seriously. We breezed through HTML and CSS,
-                then we dove into React and JavaScript. We also touched on
-                backend development with Node.js, Express, and MongoDB. I loved
-                the fast pace and the challenge of learning so much in such a
-                short time. After only six months, I felt cautiously ready to
-                take on the world of web development.
+                I came into coding fresh but ready to grind. We sped through
+                HTML and CSS before diving deep into JavaScript and React, with
+                a taste of backend development using Node.js, Express, and
+                MongoDB. The pace was intense, but I thrived. By the end of six
+                months, I felt cautiously, but genuinely, ready to step into the
+                world of web development.
               </p>
             </span>
           </div>
@@ -83,35 +81,47 @@ export default function Education() {
             <h3 className="text-2xl my-3 dark:text-[#24e4e3]">DrupalEasy</h3>
             <span>
               <p className="my-2 text-base w-full text-justify">
-                When I was still struggling to find a job after six months of
-              being unemployed, I took a long shot on an internship. The premise
-              was that a company would pay for me to complete a three-month
-              online intensive learning Drupal, then I would intern at that
-              company for three months. I had never even heard of Drupal, but{" "}
-              <a href="https://www.drupaleasy.com/users/ultimike" target="_blank"
-              aria-label="Open Mike Anello's website" className="font-semibold">
-                Mike Anello&apos;s
-              </a>{" "}
-              class (along with the amazing mentorship of{" "}
-              <a href="https://www.drupal.org/u/iajon" target="_blank"
-            aria-label="See Alex Jones's Drupal profile" className="font-semibold">Alex Jones</a>) got me up
-              to speed in time to start at{" "}
-              <a href="https://www.palantir.net/" target="_blank"
-            aria-label="Visit the Palantir.net company website" className="font-semibold">Palantir.net</a>. By the time
-              I was hired at the end of my internship, I was already using my
-              JavaScript skills to help build a breakthrough collaborative
-              editing module.
+                Six months into unemployment, I took a chance on a specialized internship. A partner company would fund a three-month online Drupal intensive and bring me on as an intern for another three. I had never even heard
+                of Drupal, but{" "}
+                <a
+                  href="https://www.drupaleasy.com/users/ultimike"
+                  target="_blank"
+                  aria-label="Open Mike Anello's website"
+                  className="font-semibold"
+                >
+                  Mike Anello&apos;s
+                </a>{" "}
+                course (along with the amazing mentorship of{" "}
+                <a
+                  href="https://www.drupal.org/u/iajon"
+                  target="_blank"
+                  aria-label="See Alex Jones's Drupal profile"
+                  className="font-semibold"
+                >
+                  Alex Jones
+                </a>
+                ) got me up to speed fast. By the time I joined {" "}
+                <a
+                  href="https://www.palantir.net/"
+                  target="_blank"
+                  aria-label="Visit the Palantir.net company website"
+                  className="font-semibold"
+                >
+                  Palantir.net
+                </a>
+                . By the time I was hired at the end of my internship, I was
+                already contributing JavaScript expertise to a breakthrough collaborative editing module. I was hired full-time at the end of the internship.
               </p>
             </span>
           </div>
           <div className="flex w-full justify-center">
-              <Image
-                src="https://lh3.googleusercontent.com/pw/AP1GczPkPktMLe8luyLR-gmvf4GuGCkMUD0nOjoOXOCVpDiQ8V8MStePkqac4r38TNxUJF2RxqAAdgIvloxZKMdxPDaGaBBhqYHDi9gYJsAx-I5Y9PoZvg=w2400"
-                alt="Sarah with Drupal Career Online Certificate"
-                width={600}
-                height={800}
-                className="rounded-xl shadow-lg max-w-3xs"
-              />
+            <Image
+              src="https://lh3.googleusercontent.com/pw/AP1GczPkPktMLe8luyLR-gmvf4GuGCkMUD0nOjoOXOCVpDiQ8V8MStePkqac4r38TNxUJF2RxqAAdgIvloxZKMdxPDaGaBBhqYHDi9gYJsAx-I5Y9PoZvg=w2400"
+              alt="Sarah with Drupal Career Online Certificate"
+              width={600}
+              height={800}
+              className="rounded-xl shadow-lg max-w-3xs"
+            />
           </div>
         </div>
 
@@ -135,12 +145,7 @@ export default function Education() {
             <h3 className="text-2xl my-3 dark:text-[#24e4e3]">Cook Systems</h3>
             <span>
               <p className="my-2 text-base w-full text-justify">
-                Midway through my bootcamp, several accomplished software
-                engineers were also seeking work thanks to a major tech
-                company&apos;s layoffs. I was applying, networking, applying,
-                interviewing, applying... you get the idea. One of the companies
-                to which I applied offered a learning oppotunity in conjunction
-                with helping to find me a job, so I jumped in.
+                Midway through my bootcamp, the job market tightened as seasoned engineers flooded the field after major tech layoffs.  I was deep in the apply-network-interview cycle when Cook Systems offered a structured learning program paired with job placement support. I jumped in and kept sharpening my skills while searching for the right opportunity.
               </p>
             </span>
           </div>
