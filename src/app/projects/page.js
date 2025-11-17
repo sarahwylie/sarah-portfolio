@@ -9,14 +9,15 @@ export default function ProjectPage() {
 
       <div className="flex lg:columns-2 items-center gap-10">
         <div className="flex flex-wrap w-full">
-          <div className="flex w-full justify-stretch">
-            <Image
+          <div className="flex w-full justify-stretch zoom-hover">
+            <Link href="/projects/EventStyling">
+                        <Image
               src="https://lh3.googleusercontent.com/pw/AP1GczPzZYUHE9Ox8JeO8X_en16D3SGPrrRZw48BkUTVaNjmbIn8nyyR6U_BHyQiL7n2XJLv6Y8RY6HZPx3TkRmfoXJghTN42r7mG116Z4tvkZ6PhH3UPj4-80S02UQNuAz3-kSogULT3U8NAvcbkHwbFeY=w843-h255-s-no-gm?authuser=0"
               alt="Finished styling of the events with client identifiers blacked out"
               width={800}
               height={400}
               className="rounded-xl  w-full h-auto shadow-lg"
-            />
+            /></Link>
           </div>
           <div className="mx-3 w-full mb-8 lg:mb-0 items-center">
             <h3 className="text-2xl my-3 dark:text-[#24e4e3]">Event Styling</h3>
@@ -47,28 +48,30 @@ export default function ProjectPage() {
               <Link href="/projects/Wildflower">Learn More</Link>
             </span>
           </div>
-          <div className="w-full">
-            <Image
+          <div className="flex w-full justify-stretch zoom-hover">
+            <Link href="/projects/Wildflower">
+              <Image
               src="https://lh3.googleusercontent.com/pw/AP1GczMUEVv-iLkkbPpvfv69vctkVZX1f9cMaZmLzaipG5_i4WkBHKyw35pTDuIXlodq_NXv1Np7SfvjhvxABXU9mBtnLXEEvb_ZdiW7l1jWgLqKIUs7tg=w2400"
               alt="Wildflower website transition"
               width={800}
               height={600}
               className="rounded-xl shadow-lg"
-            />
+            /></Link>
           </div>
         </div>
       </div>
 
       <div className="flex lg:columns-2 items-center gap-10">
         <div className="flex flex-wrap w-full basis-1/2">
-          <div className="flex w-full justify-stretch">
-            <Image
+          <div className="flex w-full justify-stretch zoom-hover">
+            <Link href="/projects/CSSvSASS">
+              <Image
               src="https://lh3.googleusercontent.com/pw/AP1GczOFj4B07PZdOdrVd_01iESQye7BEcV0rsMgZS1PbiURjfXOIqKL1kTVyjo1y1aDwGKxbLIDXxS26m2bo7b2_IlzjlSzdInQK1ltfMu2mi7JeyDgWA=w2400"
               alt="Table comparing SASS features with CSS alternatives"
               width={1000}
               height={800}
               className="rounded-xl w-full h-auto shadow-lg"
-            />
+            /></Link>
           </div>
           <div className="mx-3 w-full mb-8 lg:mb-0 items-center">
             <h3 className="text-2xl my-3 dark:text-[#24e4e3] font-medium">

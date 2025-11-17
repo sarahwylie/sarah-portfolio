@@ -46,13 +46,21 @@ hr {
   hr {
     color: #ff862e;
     border-color: #ff862e;
-    /* border-radius: 20px;
-  border-top-style: var(--tw-border-style);
-  border-top-width: 3px; */
     background-color: #ff862e;
   }
 }
 
 .font-medium {
   font-weight: 500;
+}
+
+.zoom-hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom-hover:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }

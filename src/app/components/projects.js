@@ -23,14 +23,15 @@ export default function Projects() {
 
       <div className="flex lg:columns-2 items-center gap-10">
         <div className="flex flex-wrap w-full">
-          <div className="flex w-full justify-stretch">
+          <div className="flex w-full justify-stretch zoom-hover">
+            <Link href="/projects/Puppalooza">
             <Image
               src="https://lh3.googleusercontent.com/pw/AP1GczPo4NFLe9SeaFSGkh34yTj--c14pHVvWmiTMcppthKRtJUYUgUzX4Pcjh6mU2zU7CRXC8pwIvU2EAGg3JXuGdWeyL_VF3OW0NdTJq50DQSi_HDNVw=w2400"
               alt="Puppalooza Screenshot"
               width={600}
               height={400}
               className="rounded-xl shadow-lg w-full h-auto"
-            />
+            /></Link>
           </div>
           <div className="mx-3 w-full mb-8 lg:mb-0 items-center">
             <h3 className="text-2xl my-3 dark:text-[#24e4e3]">Puppalooza</h3>
@@ -54,9 +55,7 @@ export default function Projects() {
             </h3>
             <span className="flex w-full text-justify">
               <p className="my-2">
-                A U.S. Web Design System (USWDS) component wasn&apos;t dynamic, so I
-                dug into the source code, wrote a patch, and contributed the
-                updated code back to the open-source community.
+                A U.S. Web Design System (USWDS) component wasn&apos;t dynamic, so I dug into the source code, wrote a patch, and contributed the updated code back to the open-source community.
               </p>
             </span>
             <span className="my-2 hover:text-[#B84D00] dark:text-[#FFD43B] dark:hover:text-[#FF862E] tracking-widest font-medium">
@@ -64,14 +63,16 @@ export default function Projects() {
             </span>
           </div>
 
-          <div className="w-full">
-            <Image
+          <div className="flex w-full justify-stretch zoom-hover">
+            <Link href="/projects/Tooltip">
+              <Image
               src="https://lh3.googleusercontent.com/pw/AP1GczMYqj7HnwzLyA1TT27uuIqsJixHcNORa67VPujvPYs3EX-mdPaqiCUDgenj6qATso3jyvpR2wYtS2oH30atMwDURQuO3m845oAv574xlsxboodbHxNNumN_bRSwOPrC3JM_TjL6bvEE5iDkWSG3cRs=w1489-h423-s-no-gm?authuser=0"
               alt="Tooltip code snippet"
               width={1500}
               height={400}
               className="rounded-xl shadow-lg w-full h-auto"
             />
+            </Link>
           </div>
         </div>
       </div>
