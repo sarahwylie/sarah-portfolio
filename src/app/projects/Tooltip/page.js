@@ -86,7 +86,7 @@ export default function Tooltip() {
       </div>
 
       <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-        <hr className="my-12 h-1 opacity-100 w-2/3" />
+        <hr className="h-1 opacity-100 w-full" />
       </div>
 
       <div className="w-full space-y-6 items-center content-center">
@@ -176,9 +176,9 @@ export default function Tooltip() {
           </div>
         </div>
       </div>
-          <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-            <hr className="h-1 opacity-100 w-full" />
-          </div>
+      <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+        <hr className="h-1 opacity-100 w-full" />
+      </div>
     </main>
   );
 }

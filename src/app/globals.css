@@ -59,8 +59,10 @@ hr {
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+  /* opacity: 1; */
 }
 .zoom-hover:hover {
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
+  /* opacity: .5; */
 }
