@@ -8,11 +8,12 @@ export default function EventStyling() {
           Event Styling
         </h1>
         <span className="my-4 italic w-full text-justify">
-          I was tasked with using a third-party events integration tool to style
-          an embedded widget. After several direct attempts failed, I developed
-          a custom Drupal module that used JavaScript to inject custom styles.
-          This allowed us to apply the necessary styling reliably, even when the
-          DOM updated (during user interactions like scrolling or clicking).
+          Our client used 25Live to manage events and requested that its
+          embedded “Event Slider Spud” calendar widget match specific
+          wireframes. Native styling options were extremely limited, and early
+          attempts at CSS overrides failed due to iframe rendering constraints.
+          Rather than tell the client their request was unachievable, I wrote a
+          custom Drupal module to override the default behavior.
         </span>
       </div>
       <div className="grid lg:grid-cols-2 gap-8 items-center justify-center">
@@ -70,7 +71,7 @@ export default function EventStyling() {
         <div className="grid sm:grid-cols-2 gap-6">
           <div className="text-left place-items-center content-center">
             <span>
-              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-2 dark:text-[#24e4e3] font-semibold">
                 Project Purpose
               </h2>
               <p className="mt-4 text-base w-full text-justify">
@@ -106,36 +107,40 @@ export default function EventStyling() {
             </span>
 
             <span>
-              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
-                Web Stack and Explanation
+              <h2 className="text-2xl mb-2 mt-6 dark:text-[#24e4e3] font-semibold">
+                Tech Stack & Approach
               </h2>
               <p className="mt-4 text-base w-full text-justify">
-                This project marked my first foray into Site Studio, which is a
-                version of Drupal that is supposed to allow companies more
-                flexibility by making the majority of the back-end no-code once
-                the initial setup is complete. I was part of the initial setup,
-                and aside from a couple of people knowledgeable in basic HTML,
-                the stakeholders were all non-technical people. I had to keep
-                reminding myself not to underestimate the platform, as
-                drag-and-drop elements can often be the most difficult to work
-                with when someone is accustomed to building with code.
+                This was my first foray into Site Studio, which allows for visual page building but can limit direct code access. Balancing drag-and-drop restrictions with developer-level customization required careful analysis and creative engineering.
               </p>
             </span>
 
             <span>
-              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
-                Struggles and Reflections
+              <h2 className="text-2xl mb-2 mt-6 dark:text-[#24e4e3] font-semibold">
+                Challenges & Lessons Learned
               </h2>
               <p className="mt-4 text-base w-full text-justify">
-                My project team and I were all learning Site Studio on the fly
-                as we built. Additionally, our lead developer was unexpectedly
-                hospitalized at the beginning of this project, shortly after he
-                had put the development standards in place. I was asked to step
-                into the role until his return, but struggled with no access to
-                his information. This was a fantastic learning experience for
-                me, as I was able to document what I didn&apos;t have, what I
-                didn&apos;t know, and how I could record everything I do within
-                a group project so someone could easily step into my role.
+                The team learned Site Studio in real time, and early in the
+                project, the lead developer was unexpectedly hospitalized. I was
+                asked to step in as technical lead with limited access to his
+                documentation and implementation plans. To keep the project
+                moving forward with minimal disruption, I:
+                <ul className="list-disc">
+                  <li className="ml-6 my-1">
+                    Documented existing gaps and restructured our technical
+                    workflow
+                  </li>
+
+                  <li className="ml-6 my-1">
+                    Led integration strategy and module development
+                  </li>
+
+                  <li className="ml-6 my-1">
+                    Created long-term documentation to support future handoffs
+                  </li>
+                </ul>
+                This project strengthened my confidence in solution-oriented
+                engineering and leadership under unexpected circumstances.
               </p>
             </span>
           </div>

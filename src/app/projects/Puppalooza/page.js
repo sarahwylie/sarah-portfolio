@@ -8,15 +8,14 @@ export default function Puppalooza() {
           Puppalooza
         </h1>
         <span className="my-4 italic w-full text-justify">
-          A cute pup was running around the neighborhood, and a rescue offered
-          to catch her on the condition that someone offer to foster. One hour
-          later we welcomed Willa into our home. As we settled into a new normal
-          over the following weeks, we started to fall in love with this sweet
-          baby. We also started to notice something was... off. We braced
-          ourselves and prepped our lives, then rolled up our sleeves and helped
-          Willa birth ten puppies! They grew quickly, and as they got older, I
-          threw together a website in hopes of finding them all great adoptive
-          homes.
+          A stray pup was roaming the neighborhood when a local rescue agreed to
+          catch her—if someone stepped up to foster. An hour later, Willa
+          settled into our home. Over the following weeks, we grew attached to
+          her and also realized something was... off. We prepared ourselves, and
+          before long, we welcomed ten puppies into the world.
+          As they grew, I spun up a website to help them find loving homes. This
+          website wasn&apos;t about polish, it was about speed, functionality,
+          and sharing the puppies&apos; stories with prospective adopters.
         </span>
       </div>
       <div className="grid lg:grid-cols-2 gap-8 items-center justify-center">
@@ -75,55 +74,84 @@ export default function Puppalooza() {
         <div className="grid sm:grid-cols-2 gap-2">
           <div className="text-left place-items-center content-center">
             <span>
-              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-2 dark:text-[#24e4e3] font-semibold">
                 Project Purpose
               </h2>
               <p className="mt-4 text-base w-full text-justify">
-                This website did not start with design ideas, color palettes, or
-                wireframes, rather it was an effort to build something quickly
-                to showcase the puppies that had unexpectedly come into our
-                lives. I knew I could go back and add some flare to the site
-                later, but who has time with so many puppies running around?!
+                This project started out of necessity, not aesthetics. With ten
+                puppies needing attention (and energy), there was no time for
+                design planning or wireframing. I built the first version fast
+                to get the word out, knowing I could iterate on the visuals
+                later.
               </p>
             </span>
 
             <span>
-              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
-                Web Stack and Explanation
+              <h2 className="text-2xl mb-2 mt-6 dark:text-[#24e4e3] font-semibold">
+                Tech Stack & Approach
               </h2>
-              <p className="mt-4 text-base w-full text-justify">
-                I needed to build this site quickly, and I wouldn&apos;t need to
-                scale up or store anything on the backend, so React felt like
-                the logical choice. I already had experience with React,
-                Tailwind made styling faster, and I was able to initiate the
-                codebase, gather all the data, and publish within a couple days.
-                <br />
-                After I got the basic information posted, I needed to come up
-                with a photo storage solution. With a massive focus on
-                displaying photos for so many puppies (plus adding videos), this
-                site wouldn&apos;t be able to host all that data on GitHub.
-                After searching for a Content Delivery Network where I could
-                store, host, deliver, and optimize the images, I ended up
-                lowering my expectations considerably. CDNs can be pricey, and
-                ultimately I needed a cheap option with minimal fuss. I decided
-                on Google for its unbeatable price tag (free).
-              </p>
+              <span className="mt-4 text-base w-full text-justify">
+                <ul className="list-disc">
+                  <li className="ml-6 my-1">
+                    <span className="font-semibold">React & Next.js</span>: I
+                    already knew React from bootcamp, so I quickly ramped up on
+                    Next.js to speed up development and simplify deployment.
+                  </li>
+
+                  <li className="ml-6 my-1">
+                    <span className="font-semibold">Tailwind CSS</span>: Enabled
+                    rapid styling without losing time on UI details.
+                  </li>
+
+                  <li className="ml-6 my-1">
+                    <span className="font-semibold">
+                      Static content strategy
+                    </span>
+                    : Since the site didn&apos;t require backend scaling or
+                    persistent data, a statically generated approach made the
+                    most sense.
+                  </li>
+
+                  <li className="ml-6 my-1">
+                    <span className="font-semibold">Photo hosting</span>: With
+                    so many images (and some videos), GitHub storage wasn&apos;t
+                    feasible. After researching CDNs, I opted to use Google
+                    Photos due to cost-effectiveness and simplicity (free {">"}{" "}
+                    fancy).
+                  </li>
+                </ul>
+                I launched the site within a couple of days of initiating the
+                codebase.
+              </span>
             </span>
 
             <span>
-              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
-                Struggles and Reflections
+              <h2 className="text-2xl mb-2 mt-6 dark:text-[#24e4e3] font-semibold">
+                Challenges & Lessons Learned
               </h2>
-              <p className="mt-4 text-base w-full text-justify">
-                I took a big leap of faith in my ability to get a React project
-                running quickly. Although I learned to code with React and
-                JavaScript, I had never used Next.js, and my TypeScript was a
-                bit rusty. Just like riding a bike, I wobbled a bit, but found
-                myself moving quickly through each step. If I had to do it all
-                over again, I might pay for a CDN to optimize the images. I am
-                grateful that I used object arrays to map through the photos,
-                though, as that made adding in new photos quick and easy.
-              </p>
+              <span className="mt-4 text-base w-full text-justify">
+                I leaned heavily on fast decision-making and fundamentals. I
+                navigated:
+                <ul className="list-disc">
+                  <li className="ml-6 my-1">
+                    Ramp-up on Next.js while building under time pressure
+                  </li>
+                  <li className="ml-6 my-1">
+                    Brushing off rusty TypeScript skills{" "}
+                  </li>
+                  <li className="ml-6 my-1">
+                    Managing large image handling efficiently{" "}
+                  </li>
+                  <li className="ml-6 my-1">
+                    Designing for usability without formal prep
+                  </li>
+                </ul>
+                If I were to revisit the project, I might invest in a proper CDN
+                to optimize images and performance. One thing I was grateful to
+                have done from the beginning was creating object arrays to map
+                photos — it made adding new puppy pics and (p)updates incredibly
+                efficient.
+              </span>
             </span>
           </div>
           <div className="grid grid-col md:grid-cols-2 gap-4 w-full place-items-center content-center">

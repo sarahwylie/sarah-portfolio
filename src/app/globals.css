@@ -54,15 +54,30 @@ hr {
   font-weight: 500;
 }
 
-.zoom-hover {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-  /* opacity: 1; */
+.image-project-container {
+  position: relative;
 }
-.zoom-hover:hover {
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
-  /* opacity: .5; */
+
+.base-image {
+  opacity: 1;
+}
+
+.base-image:hover {
+  opacity: 0;
+  z-index: -5;
+}
+
+.scribble-overlay {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.scribble-overlay:hover {
+  opacity: 1;
+  z-index: 90;
 }

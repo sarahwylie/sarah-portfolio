@@ -9,21 +9,17 @@ export default function Tooltip() {
           USWDS Dynamic Tooltip
         </h1>
         <span className="my-4 italic w-full text-justify">
-          While customizing a page for a client, I realized that the U.S. Web
-          Design System (USWDS) Tooltip component we were using did not allow
-          developers to dynamically update text. Since the client&apos;s theme
-          library relied heavily on USWDS components, I had the choice to either
-          create a custom tooltip component (which was unrealistic given the
-          timeline) or dig into the open-source code to change the static
-          properties of the existing component. The dynamic properties of this
-          component were important, as a static tooltip couldn&apos;t provide
-          the contextual guidance users needed. I wrote a custom patch that
-          overrode the default USWDS component behavior, enabling real-time
-          updates to the tooltip text based on user actions. This solution
-          preserved accessibility, improved the user experience, and allowed us
-          to maintain design system consistency. After testing and refining the
-          patch, I contributed it back to USWDS so others in the community could
-          benefit from the enhancement.
+          While implementing a new section in a client site, I noticed that the
+          tooltip component provided only static content. Because the user
+          interface relied on changing button states, we needed dynamic feedback
+          to help users understand the context behind each action.
+          Custom-building a tooltip wasn&apos;t feasible within the project
+          timeline, and the client&apos;s design system heavily depended on
+          USWDS. I examined the component&apos;s underlying code and created a
+          patch that allowed tooltips to update based on user interactions, all
+          while maintaining accessibility and design system consistency. After
+          testing and integrating the fix, I submitted the enhancement back to
+          the USWDS community.
         </span>
       </div>
       <div className="grid lg:grid-cols-2 gap-8 items-center justify-center">
@@ -93,7 +89,7 @@ export default function Tooltip() {
         <div className="grid sm:grid-cols-2 gap-2">
           <div className="text-left place-items-center content-center">
             <span>
-              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
+              <h2 className="text-2xl my-2 dark:text-[#24e4e3] font-semibold">
                 Project Purpose
               </h2>
               <p className="mt-4 text-base w-full text-justify">
@@ -108,8 +104,8 @@ export default function Tooltip() {
               </p>
             </span>
             <span>
-              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
-                Web Stack and Explanation
+              <h2 className="text-2xl mb-2 mt-6 dark:text-[#24e4e3] font-semibold">
+                Tech Stack & Approach
               </h2>
               <p className="mt-4 text-base w-full text-justify">
                 The site was already built in Drupal, which generally uses PHP
@@ -117,33 +113,27 @@ export default function Tooltip() {
                 carefully choreographed dance with the DOM to allow each
                 component to appear at the correct time. DOM interactions
                 require JavaScript, and the custom module for this functionality
-                was written in JavaScript.
+                was written in JavaScript with jQuery.
               </p>
             </span>
 
             <span>
-              <h2 className="text-2xl my-3 dark:text-[#24e4e3]">
-                Struggles and Reflections
+              <h2 className="text-2xl mb-2 mt-6 dark:text-[#24e4e3] font-semibold">
+                Challenges & Lessons Learned
               </h2>
               <p className="mt-4 text-base w-full text-justify">
-                This custom module held thousands of lines of code and required
-                several refactors. I didn&apos;t complete this feat alone, but
-                while working closely with the senior developer and the UX
-                designer, we realized quickly that our time until launch was
-                running thin and the functionality was not yet logical. The
-                three of us held an emergency planning meeting to determine how
-                to wrap up this portion of the site, and the takeaway was that
-                we would have to overhaul and restrategize major sections if we
-                couldn&apos;t make the tooltip dynamic. I offered to explore the
-                USWDS source code, and the team placed a lot of trust in me to
-                deliver the solution rapidly. Luckily, I found the relevant code
-                almost immediately, and I had overwritten and tested the
-                solution within an hour. I created the patch, and we integrated
-                it into the module seamlessly. The experience taught me a lot
-                about trusting my instincts and digging into unfamiliar
-                codebases with confidence. Once the code was hands-off for
-                launch, I submitted the patch back to USWDS so others could
-                benefit from the functionality.
+                The custom module powering this feature included thousands of
+                lines of code and underwent several refactors. As our team
+                approached launch, the UX designer, senior engineer, and I
+                realized the tooltip was a critical blocker. Without dynamic
+                messaging, users wouldn't understand the shifting states of key
+                interface elements. In an emergency planning session, I proposed
+                exploring the USWDS source code. Within an hour, I located the
+                issue, developed the override, tested it, and patched it into
+                the build. The enhancement resolved the UX challenge and allowed
+                the team to move forward without rearchitecting major components
+                under deadline pressure. Lesson learned: never underestimate my
+                capabilities.
               </p>
             </span>
           </div>
