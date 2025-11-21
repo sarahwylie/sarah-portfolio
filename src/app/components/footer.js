@@ -14,28 +14,28 @@ export default function Footer() {
         <Link href="mailto:SarahWylieWebDev@gmail.com">
           <FontAwesomeIcon
             icon={faEnvelope}
-            className="dark:text-[#24e4e3] text-6xl"
+            className="text-6xl flip-icon"
             aria-label="Email me"
           />
         </Link>
         <Link href="https://github.com/sarahwylie" target="_blank">
           <FontAwesomeIcon
             icon={faGithub}
-            className="dark:text-[#24e4e3] text-6xl"
+            className="text-6xl flip-icon"
             aria-label="GitHub"
           />
         </Link>
         <Link href="https://drupal.org/u/sarahwylie" target="_blank">
           <FontAwesomeIcon
             icon={faDrupal}
-            className="dark:text-[#24e4e3] text-6xl"
+            className="text-6xl flip-icon"
             aria-label="Drupal"
           />
         </Link>
         <Link href="https://linkedin.com/in/sarahamwylie" target="_blank">
           <FontAwesomeIcon
             icon={faLinkedin}
-            className="dark:text-[#24e4e3] text-6xl"
+            className="text-6xl flip-icon"
             aria-label="LinkedIn"
           />
         </Link>

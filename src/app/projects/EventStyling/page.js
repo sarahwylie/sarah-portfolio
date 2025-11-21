@@ -119,7 +119,7 @@ export default function EventStyling() {
               <h2 className="text-2xl mb-2 mt-6 dark:text-[#24e4e3] font-semibold">
                 Challenges & Lessons Learned
               </h2>
-              <p className="mt-4 text-base w-full text-justify">
+              <span className="mt-4 text-base w-full text-justify">
                 The team learned Site Studio in real time, and early in the
                 project, the lead developer was unexpectedly hospitalized. I was
                 asked to step in as technical lead with limited access to his
@@ -141,7 +141,7 @@ export default function EventStyling() {
                 </ul>
                 This project strengthened my confidence in solution-oriented
                 engineering and leadership under unexpected circumstances.
-              </p>
+              </span>
             </span>
           </div>
           <div className="grid grid-col gap-4 w-full place-items-center content-center">

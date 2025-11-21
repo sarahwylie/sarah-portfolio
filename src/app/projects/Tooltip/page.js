@@ -126,7 +126,7 @@ export default function Tooltip() {
                 lines of code and underwent several refactors. As our team
                 approached launch, the UX designer, senior engineer, and I
                 realized the tooltip was a critical blocker. Without dynamic
-                messaging, users wouldn't understand the shifting states of key
+                messaging, users wouldn&apos;t understand the shifting states of key
                 interface elements. In an emergency planning session, I proposed
                 exploring the USWDS source code. Within an hour, I located the
                 issue, developed the override, tested it, and patched it into

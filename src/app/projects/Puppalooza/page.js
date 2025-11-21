@@ -9,7 +9,7 @@ export default function Puppalooza() {
         </h1>
         <span className="my-4 italic w-full text-justify">
           A stray pup was roaming the neighborhood when a local rescue agreed to
-          catch her—if someone stepped up to foster. An hour later, Willa
+          catch her on the condition that someone step up to foster. An hour later, Willa
           settled into our home. Over the following weeks, we grew attached to
           her and also realized something was... off. We prepared ourselves, and
           before long, we welcomed ten puppies into the world.
