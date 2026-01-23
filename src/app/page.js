@@ -5,6 +5,8 @@ import About from "./components/about";
 import Education from "./components/education";
 import Footer from "./components/footer";
 import Projects from "./components/projects";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -61,12 +63,6 @@ export default function Home() {
             <hr className="my-12 h-1 opacity-100 w-full" />
           </div>
 
-          <Education />
-
-          <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
-            <hr className="my-12 h-1 opacity-100 w-full" />
-          </div>
-
           <Projects />
           <div
             className="flex flex-col justify-center w-fit sm:w-auto italic mt-10"
@@ -74,13 +70,22 @@ export default function Home() {
           >
             <Link href="/projects">
               <span className="text-3xl sm:text-4xl font-medium tracking-wide hover:font-bold hover:text-[#B84D00] dark:text-[#FFD43B] dark:hover:text-[#FF862E]">
-                See more projects here
+                See more projects here{" "}
+                <FontAwesomeIcon icon={faArrowRight} aria-label="Link to more projects" />
               </span>
             </Link>
           </div>
+
           <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
             <hr className="my-12 h-1 opacity-100 w-full" />
           </div>
+
+          <Education />
+
+          <div className="flex gap-4 flex-row w-full sm:w-auto items-center justify-center">
+            <hr className="my-12 h-1 opacity-100 w-full" />
+          </div>
+
         </main>
         <footer className="flex flex-wrap flex-col">
           {/* CONTACT  */}
@@ -92,10 +97,11 @@ export default function Home() {
               Reach out to me
             </h2>
             <p className="mt-4">I&apos;d love to hear from you!</p>
-            <p>Whether you have a question about my work,
-            want to collaborate on a project,</p>
-            <p>or just want to say hi, 
-            feel free to reach out.</p>
+            <p>
+              Whether you have a question about my work, want to collaborate on
+              a project,
+            </p>
+            <p>or just want to say hi, feel free to reach out.</p>
           </div>
           <Footer />
         </footer>

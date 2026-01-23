@@ -109,7 +109,7 @@ export default function Education() {
                 >
                   Palantir.net
                 </a>
-                . By the time I was hired at the end of my internship, I was
+                , I was
                 already contributing JavaScript expertise to a breakthrough collaborative editing module. I was hired full-time at the end of the internship.
               </p>
             </span>
